@@ -1,4 +1,4 @@
 This component is a core component.
 
-### dependencies
+##### dependencies
  - [[CTA]] type [[Card link]]
