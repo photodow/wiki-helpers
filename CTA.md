@@ -1,16 +1,5 @@
 CTA is the backbone of our system
 
-<table>
-<tr>
-<td style="width: 50%;">
-</td>
-<td>
-</td>
-</tr>
-<tr>
-<td>
-</td>
-<td>
 <!-- table-of-contents start -->
 **Table of contents**
 - [Styles](#styles)
@@ -20,9 +9,6 @@ CTA is the backbone of our system
   - [aerh](#aerh)
 
 <!-- table-of-contents end -->
-</td>
-</tr>
-</table>
 
 # Styles
 
