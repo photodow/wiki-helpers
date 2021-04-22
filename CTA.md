@@ -9,3 +9,7 @@ CTA is the backbone of our system
 
 
 ## Types
+
+## Backlinks
+* [[Content block]]
+	* [[CTA]] type [[Card link]]
