@@ -1,0 +1,1 @@
+The card link depends on [[Card]] and decorates it
