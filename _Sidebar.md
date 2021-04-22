@@ -1,1 +1,2 @@
-asdf asdf asdf [[home]]
+# Content block definition
+This is a content block definition
