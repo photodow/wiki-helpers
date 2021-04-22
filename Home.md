@@ -1,1 +1,1 @@
-Welcome to the wiki-test wiki!
+Welcome to the wiki-test wiki! [[test]]
