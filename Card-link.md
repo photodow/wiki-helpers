@@ -1,4 +1,4 @@
-The card link depends on [[Card]] and decorates it
+The card link depends on [[Card]] and decorates it [[home]]
 
 ## Backlinks
 * [[CTA]]
