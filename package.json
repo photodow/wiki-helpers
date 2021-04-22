@@ -1,0 +1,22 @@
+{
+  "name": "backlinks-test.wiki",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "toc": "node lib/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/photodow/backlinks-test.wiki.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/photodow/backlinks-test.wiki/issues"
+  },
+  "homepage": "https://github.com/photodow/backlinks-test.wiki#readme",
+  "dependencies": {
+    "directory-tree": "^2.2.9"
+  }
+}
