@@ -1,0 +1,1 @@
+The card is highly used core component.
