@@ -4,14 +4,13 @@ This [[CTA]] (call to action) component allows one to quickly switch between a c
 
 
 <!-- table-of-contents start -->
+###### Table of contents  
+- [1. Type](#1.-type)
+  - [1.1 Jump](#1.1-jump)
+- [2. Style](#2.-style)
+  - [2.1 Text (default)](#2.1-text-(default))
+- [Backlinks](#backlinks)
 
-###### Table of contents
-  - [Styles](#styles)
-  - [Types](#types)
-  - [aerh](#aerh)
-  - [Backlinks](#backlinks)
-
-<br />
 <!-- table-of-contents end -->
 
 
@@ -22,7 +21,7 @@ The jump link visually uses the down arrow to indicate to the user this link jum
 
 <img src="https://user-images.githubusercontent.com/3793636/115884368-74c06880-a414-11eb-967e-2986ec080c75.png" height="30px" />
 
-##### Logic
+###### Logic
 
 | key | condition | description |
 |:-----|:-----------|:-------------|
@@ -39,7 +38,7 @@ The jump link visually uses the down arrow to indicate to the user this link jum
 
 The default text style is just a textual link with an icon. This type of [[CTA]] can be used at low levels within the page hierarchy.
 
-##### Logic
+###### Logic
 
 | key | condition | description |
 |:-----|:-----------|:-------------|
