@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "toc": "node lib/index.js"
+    "toc": "node lib/index.js && git add . && git commit -m 'generated table of contents'"
   },
   "repository": {
     "type": "git",
