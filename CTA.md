@@ -7,22 +7,13 @@ CTA is the backbone of our system
     - [Styles](#styles)
   - [Types](#types)
   - [aerh](#aerh)
+<!-- table-of-contents end -->
 
 ## Backlinks
 * [[CTA]]
 	* [[CTA]] type [[Card link]]
 * [[Content block]]
 	* [[CTA]] type [[Card link]]
-# Styles
-
-## liuhieb liuh 
-
-
-- [[Card link]]
-  - [[Card]]
-    - [[Button group]]
-    - [[Link with icon]]
-
 ### Styles
 
 
@@ -30,19 +21,12 @@ CTA is the backbone of our system
 
 ## aerh
 
-#### Backlinks
+#### Backlinks asdf
 * [[Content block]]
 	* [[CTA]] type [[Card link]]
 	
 	
-##### Backlinks
-###### Backlinks
-####### Backlinks
-######## Backlinks
-
-**Table of contents**
-
-- [[Card link]]
-  - [[Card]]
-    - [[Button group]]
-    - [[Link with icon]]
+##### Backlinksasdf 
+###### Backlinks Backlinksasdf
+####### Backlinkszxcv z
+######## Backlinksadfg aerg

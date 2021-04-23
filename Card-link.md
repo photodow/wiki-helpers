@@ -1,8 +1,10 @@
 The card link depends on [[Card]] and decorates it [[home]]
 
+<!-- table-of-contents start -->
+<!-- table-of-contents end -->
+
 ## Backlinks
 * [[CTA]]
-	* [[Card link]]
 	* [[CTA]] type [[Card link]]
 	* [[Card link]]
 * [[Content block]]
