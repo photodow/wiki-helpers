@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "toc": "node lib/index.js",
+    "toc": "node lib/index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,5 @@
   "bugs": {
     "url": "https://github.com/photodow/backlinks-test.wiki/issues"
   },
-  "homepage": "https://github.com/photodow/backlinks-test.wiki#readme",
+  "homepage": "https://github.com/photodow/backlinks-test.wiki#readme"
 }
