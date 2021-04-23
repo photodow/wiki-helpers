@@ -5,5 +5,6 @@
 #### UI components
 - [[Card]]
 - [[Card link]]
+- [[CTA]]
 - [[Link with icon]]
 - [[Button group]]
