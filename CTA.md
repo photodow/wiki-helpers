@@ -10,15 +10,8 @@ CTA is the backbone of our system
 <!-- table-of-contents end -->
 
 ## Backlinks
-* [[CTA]]
-	* [[CTA]] type [[Card link]]
 * [[Content block]]
 	* [[CTA]] type [[Card link]]
-#### Backlinks asdf
-* [[Content block]]
-	* [[CTA]] type [[Card link]]
-	
-	
 ##### Backlinksasdf 
 ###### Backlinks Backlinksasdf
 ####### Backlinkszxcv z
