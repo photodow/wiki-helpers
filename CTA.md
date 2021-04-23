@@ -1,8 +1,7 @@
 CTA is the backbone of our system
 
 <!-- table-of-contents start -->
-**Table of contents**
-
+**Table of contents**  
     - [Styles](#styles)
   - [Types](#types)
   - [aerh](#aerh)
