@@ -4,6 +4,9 @@ This component is a core component.
 **Table of contents**
   - [Backlinks](#backlinks)
 
+## Backlinks
+* [[CTA]]
+	* [[Content block]]
 <!-- table-of-contents end -->
 
 ##### dependencies

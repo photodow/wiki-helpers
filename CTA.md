@@ -34,6 +34,3 @@ CTA is the backbone of our system
 	* [[CTA]] type [[Card link]]
 * [[Content block]]
 	* [[CTA]] type [[Card link]]
-<!-- -->
-
-Or will only this show up?
