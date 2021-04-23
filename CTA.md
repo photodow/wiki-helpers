@@ -32,5 +32,3 @@ CTA is the backbone of our system
 ## Backlinks
 * [[CTA]]
 	* [[CTA]] type [[Card link]]
-* [[Content block]]
-	* [[CTA]] type [[Card link]]

@@ -7,5 +7,3 @@ This component is a core component.
 ## Backlinks
 * [[CTA]]
 	* [[Content block]]
-##### dependencies
- - [[CTA]] type [[Card link]]
