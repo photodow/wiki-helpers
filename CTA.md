@@ -8,15 +8,6 @@ CTA is the backbone of our system
 
 CTA is the backbone of our system
 
-<!-- table-of-contents start -->
-**Table of contents**
-  - [Backlinks](#backlinks)
-    - [Styles](#styles)
-  - [Types](#types)
-  - [aerh](#aerh)
-
-<!-- table-of-contents end -->
-
 
 ### Styles
 
