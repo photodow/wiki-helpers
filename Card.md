@@ -9,6 +9,3 @@ this is a test
 ## Backlinks
 * [[Card link]]
 	* The card link depends on [[Card]] and decorates it [[home]]
-
-
-

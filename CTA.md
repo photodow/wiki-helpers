@@ -14,8 +14,6 @@ CTA is the backbone of our system
 	* [[CTA]] type [[Card link]]
 * [[Content block]]
 	* [[CTA]] type [[Card link]]
-## aerh
-
 #### Backlinks asdf
 * [[Content block]]
 	* [[CTA]] type [[Card link]]
