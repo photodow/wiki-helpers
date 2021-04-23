@@ -2,11 +2,11 @@ CTA is the backbone of our system
 
 <!-- table-of-contents start -->
 **Table of contents**
-- [Styles](#styles)
-  - [liuhieb liuh](#liuhieb-liuh)
+  - [Backlinks](#backlinks)
     - [Styles](#styles)
   - [Types](#types)
   - [aerh](#aerh)
+
 <!-- table-of-contents end -->
 
 ## Backlinks
