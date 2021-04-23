@@ -31,7 +31,7 @@ The jump link visually uses the down arrow to indicate to the user this link jum
 
 <br />[Back to top](#table-of-contents)<br /><br /><br />
 
-#### 2. Style
+### 2. Style
 
 #### 2.1 Text (default)
 
