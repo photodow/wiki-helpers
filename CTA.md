@@ -52,7 +52,7 @@ The default text style is just a textual link with an icon. This type of [[CTA]]
 
 ----
 
-##### Resources
+## Resources
 - r5: [@carbon/icons]()
 - [r6: @carbon/icons-react]()
 - [r7: Carbon Icons]()
