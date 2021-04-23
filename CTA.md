@@ -1,3 +1,5 @@
+`UI Component`
+
 This [[CTA]] (call to action) component allows one to quickly switch between a couple different [[CTA]] easily based on a given scenario. This makes it easy to offer them all without building that logic every-time, or just as easily limit the number of options for a specific pattern.
 
 
