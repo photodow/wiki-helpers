@@ -7,7 +7,7 @@ This [[CTA]] (call to action) component allows one to quickly switch between a c
 ###### Table of contents  
 - [1. Type](#1.-type)
   - [1.1 Jump](#1.1-jump)
-  - [2. Style](#2.-style)
+- [2. Style](#2.-style)
   - [2.1 Text (default)](#2.1-text-(default))
 - [Resources](#resources)
 - [Backlinks](#backlinks)
