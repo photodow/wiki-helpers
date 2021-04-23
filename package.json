@@ -5,7 +5,6 @@
   "main": "index.js",
   "scripts": {
     "toc": "node lib/index.js",
-    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -17,7 +16,4 @@
     "url": "https://github.com/photodow/backlinks-test.wiki/issues"
   },
   "homepage": "https://github.com/photodow/backlinks-test.wiki#readme",
-  "devDependencies": {
-    "husky": "^6.0.0"
-  }
 }
