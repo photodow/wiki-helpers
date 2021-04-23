@@ -64,3 +64,5 @@ The default text style is just a textual link with an icon. This type of [[CTA]]
 	* This [[CTA]] (call to action) component allows one to quickly switch between a couple different [[CTA]] easily based on a given scenario. This makes it easy to offer them all without building that logic every-time, or just as easily limit the number of options for a specific pattern.
 	* This [[CTA]] (call to action) component allows one to quickly switch between a couple different [[CTA]] easily based on a given scenario. This makes it easy to offer them all without building that logic every-time, or just as easily limit the number of options for a specific pattern.
 	* The default text style is just a textual link with an icon. This type of [[CTA]] can be used at low levels within the page hierarchy.
+* [[Content block]]
+	* Depends on [[CTA]] asdf asdf
