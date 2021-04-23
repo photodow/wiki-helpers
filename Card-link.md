@@ -5,7 +5,3 @@ The card link depends on [[Card]] and decorates it [[home]]
   - [Backlinks](#backlinks)
 
 <!-- table-of-contents end -->
-
-## Backlinks
-* [[CTA]]
-	* [[CTA]] type [[Card link]]
