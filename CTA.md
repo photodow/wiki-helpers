@@ -8,7 +8,7 @@ This [[CTA]] (call to action) component allows one to quickly switch between a c
 
 - [1. Type](#1.-type)
   - [1.1 Jump](#1.1-jump)
-  - [2. Style](#2.-style)
+- [2. Style](#2.-style)
   - [2.1 Text (default)](#2.1-text-(default))
 - [Resources](#resources)
 - [Backlinks](#backlinks)
@@ -33,7 +33,7 @@ The jump link visually uses the down arrow to indicate to the user this link jum
 
 <br />[Back to top](#table-of-contents)<br /><br /><br />
 
-#### 2. Style
+### 2. Style
 
 #### 2.1 Text (default)
 
@@ -54,9 +54,7 @@ The default text style is just a textual link with an icon. This type of [[CTA]]
 
 ----
 
-### Resources
-
-###### Resources
+## Resources
 - r5: [@carbon/icons]()
 - [r6: @carbon/icons-react]()
 - [r7: Carbon Icons]()
@@ -65,4 +63,3 @@ The default text style is just a textual link with an icon. This type of [[CTA]]
 * [[CTA]]
 	* This [[CTA]] (call to action) component allows one to quickly switch between a couple different [[CTA]] easily based on a given scenario. This makes it easy to offer them all without building that logic every-time, or just as easily limit the number of options for a specific pattern.
 	* This [[CTA]] (call to action) component allows one to quickly switch between a couple different [[CTA]] easily based on a given scenario. This makes it easy to offer them all without building that logic every-time, or just as easily limit the number of options for a specific pattern.
-	* The default text style is just a textual link with an icon. This type of [[CTA]] can be used at low levels within the page hierarchy.
