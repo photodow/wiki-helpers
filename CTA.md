@@ -1,9 +1,8 @@
 `UI Component`
 
-This [[CTA]] (call to action) component allows one to quickly switch between a couple different [[CTA]] easily based on a given scenario. This makes it easy to offer them all without building that logic every-time, or just as easily limit the number of options for a specific pattern.
+This [[CTA]] (call to action) component allows one to quickly switch between a couple different [[CTA]] easily based on a given scenario. This makes it easy to offer them all without building that logic every-time, or just as easily limit the number of options for a specific pattern. [[Content block]] uses this component.
 
-
-<!-- table-of-contents start -->
+<!-- toc start -->
 ###### Table of contents  
 
 - [1. Type](#1.-type)
@@ -11,11 +10,21 @@ This [[CTA]] (call to action) component allows one to quickly switch between a c
 - [2. Style](#2.-style)
   - [2.1 Text (default)](#2.1-text-(default))
 - [Resources](#resources)
-- [Backlinks](#backlinks)
+- [Usage](#usage)
+- [References](#references)
+  
 
 <br />
-<!-- table-of-contents end -->
+<!-- toc end -->
 
+###### Dependencies
+- [[Button group]]
+- [[Card]]
+- [[Card link]]
+- [[Link with icon]]
+- [[Feature card]]
+- [[Video player]]
+- [[Lightbox media viewer]]
 
 ### 1. Type
 
@@ -52,6 +61,9 @@ The default text style is just a textual link with an icon. This type of [[CTA]]
 <br />[Back to top](#table-of-contents)<br /><br /><br />
 
 
+
+
+
 ----
 
 ## Resources
@@ -59,10 +71,25 @@ The default text style is just a textual link with an icon. This type of [[CTA]]
 - [r6: @carbon/icons-react]()
 - [r7: Carbon Icons]()
 
-## Backlinks
-* [[CTA]]
-	* This [[CTA]] (call to action) component allows one to quickly switch between a couple different [[CTA]] easily based on a given scenario. This makes it easy to offer them all without building that logic every-time, or just as easily limit the number of options for a specific pattern.
-	* This [[CTA]] (call to action) component allows one to quickly switch between a couple different [[CTA]] easily based on a given scenario. This makes it easy to offer them all without building that logic every-time, or just as easily limit the number of options for a specific pattern.
-	* The default text style is just a textual link with an icon. This type of [[CTA]] can be used at low levels within the page hierarchy.
-* [[Content block]]
-	* Depends on [[CTA]] asdf asdf
+<!-- usedby start -->
+## Usage  
+
+ - [[Content block]]  
+
+<br />
+<!-- usedby end -->
+
+<!-- backlinks start -->
+## References  
+
+
+**[[Card]]** (1)
+- <a href="Card#:~:text=The card is highly used core component CTA .">The card is highly used core component  ***CTA*** .</a>
+
+**[[Content block]]** (2)
+- <a href="Content-block#:~:text=Depends on CTA asdf asdf">Depends on  ***CTA***  asdf asdf</a>
+- <a href="Content-block#:~:text=- CTA ">-  ***CTA*** </a>
+  
+
+<br />
+<!-- backlinks end -->

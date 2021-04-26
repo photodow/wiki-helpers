@@ -1,13 +1,39 @@
-The card is highly used core component.
+`UI component`
+
+The card is highly used core component [[CTA]].
 
 
 this is a test
-<!-- table-of-contents start -->
+
+<!-- toc start -->
 ###### Table of contents  
 
-- [Backlinks](#backlinks)
+- [Usage](#usage)
+- [References](#references)
+  
 
 <br />
-<!-- table-of-contents end -->
+<!-- toc end -->
 
 Gonna keep going
+
+---
+
+<!-- usedby start -->
+## Usage  
+
+ - [[CTA]]  
+
+<br />
+<!-- usedby end -->
+
+<!-- backlinks start -->
+## References  
+
+
+**[[CTA]]** (1)
+- <a href="CTA#:~:text=- Card ">-  ***Card*** </a>
+  
+
+<br />
+<!-- backlinks end -->
