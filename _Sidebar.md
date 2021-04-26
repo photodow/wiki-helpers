@@ -1,5 +1,5 @@
 
-<details>
+<details open="true">
   <summary><strong>UI component</strong> (4)</summary><br />
 
 - [[CTA]]
@@ -11,7 +11,7 @@
 <br />
 </details>
 
-<details>
+<details open="true">
   <summary><strong>Layout component</strong> (1)</summary><br />
 
 - [[Content block]]
@@ -20,7 +20,7 @@
 <br />
 </details>
 
-<details>
+<details open="true">
   <summary><strong>Unclassified</strong> (1)</summary><br />
 
 - [[Home]]

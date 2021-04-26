@@ -9,7 +9,7 @@ this is a test
 
 <!-- toc start -->
 
-<details>
+<details open="true">
   <summary><strong>Table of contents</strong></summary><br />
 
 - [asdf](#asdf)
@@ -21,7 +21,7 @@ this is a test
 <!-- toc end -->
 
 
-<details>
+<details open="true">
   <summary><strong>Dependencies</strong></summary><br />
 
  - [[Link with icon]]

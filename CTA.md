@@ -6,7 +6,7 @@ This [[CTA]] (call to action) component allows one to quickly switch between a c
 
 <!-- toc start -->
 
-<details>
+<details open="true">
   <summary><strong>Table of contents</strong></summary><br />
 
 - [1. Type](#1.-type)
@@ -20,7 +20,7 @@ This [[CTA]] (call to action) component allows one to quickly switch between a c
 
 <!-- toc end -->
 
-<details>
+<details open="true">
   <summary><strong>Dependencies</strong></summary><br />
 
 - [[Button group]]

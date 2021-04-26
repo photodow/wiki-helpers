@@ -8,7 +8,7 @@ Depends on [[CTA]] asdf asdf
 
 <!-- toc start -->
 
-<details>
+<details open="true">
   <summary><strong>Table of contents</strong></summary><br />
 
 - [test](#test)
@@ -23,7 +23,7 @@ Depends on [[CTA]] asdf asdf
 
 <!-- toc end -->
 
-<details>
+<details open="true">
   <summary><strong>Dependencies</strong></summary><br />
 
  - [[CTA]]

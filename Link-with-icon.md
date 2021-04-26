@@ -6,7 +6,7 @@ blah...
 
 <!-- toc start -->
 
-<details>
+<details open="true">
   <summary><strong>Table of contents</strong></summary><br />
 
 - [Hello world](#hello-world)
@@ -17,7 +17,7 @@ blah...
 
 <!-- toc end -->
 
-<details>
+<details open="true">
   <summary><strong>Dependencies</strong></summary><br />
 
 - [[Content block]]
@@ -30,8 +30,8 @@ blah...
 <details>
   <summary><strong>Used by</strong> (2)</summary><br />
 
- - [[Card]]
  - [[CTA]]
+ - [[Card]]
 
 
 <br />
