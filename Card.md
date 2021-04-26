@@ -8,7 +8,7 @@ this is a test
 <!-- toc start -->
 ###### Table of contents  
 
-- [Usage](#usage)
+- [Used by](#used-by)
 - [References](#references)
   
 
@@ -20,7 +20,7 @@ Gonna keep going
 ---
 
 <!-- usedby start -->
-## Usage  
+## Used by  
 
  - [[CTA]]  
 

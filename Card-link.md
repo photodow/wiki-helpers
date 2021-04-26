@@ -3,7 +3,7 @@
 <!-- toc start -->
 ###### Table of contents  
 
-- [Usage](#usage)
+- [Used by](#used-by)
 - [References](#references)
   
 
@@ -14,7 +14,7 @@
 ---
 
 <!-- usedby start -->
-## Usage  
+## Used by  
 
  - [[CTA]]  
 
