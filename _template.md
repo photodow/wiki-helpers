@@ -92,6 +92,9 @@ function example () { ... }
 {{example image | thumbnail}}  
 
 
+<br />[Back to top](#wiki-wrapper)<br /><br /><br />
+
+
 
 
 ### Callout examples
