@@ -113,4 +113,4 @@ The default text style is just a textual link with an icon. This type of [[CTA]]
 
 > 👀 &nbsp; See [[Link with icon]] for more information.
 
-<br />[Back to top](#table-of-contents)<br /><br /><br />
+<br />[Back to top](#wiki-wrapper)<br /><br /><br />
