@@ -1,6 +1,6 @@
 
 <details open="true">
-  <summary><strong>UI component</strong> (4)</summary><br />
+  <summary><strong>UI component</strong> (4)</summary>
 
 - [[CTA]]
 - [[Card link]]
@@ -8,23 +8,23 @@
 - [[Link with icon]]
 
 
-<br />
+
 </details>
 
 <details open="true">
-  <summary><strong>Layout component</strong> (1)</summary><br />
+  <summary><strong>Layout component</strong> (1)</summary>
 
 - [[Content block]]
 
 
-<br />
+
 </details>
 
 <details open="true">
-  <summary><strong>Unclassified</strong> (1)</summary><br />
+  <summary><strong>Unclassified</strong> (1)</summary>
 
 - [[Home]]
 
 
-<br />
+
 </details>
