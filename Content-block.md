@@ -4,48 +4,54 @@ This component is a core component.
 
 Depends on [[CTA]] asdf asdf
 
+---
+
 <!-- toc start -->
-###### Table of contents  
+
+<details>
+  <summary><strong>Table of contents</strong></summary><br />
 
 - [test](#test)
 - [test](#test)
 - [test](#test)
   - [test](#test)
     - [test](#test)
-- [Used by](#used-by)
-- [References](#references)
-  
+
 
 <br />
+</details>
+
 <!-- toc end -->
 
-###### Dependencies
+<details>
+  <summary><strong>Dependencies</strong></summary><br />
+
  - [[CTA]]
  - [[Layout]]
  - [[Link list]]
  - [[Markdown to HTML]]
  - [[Markdown to HTML]]
- 
- 
- # test
- ## test
- 
- ### test
- #### test
- ##### test
-
----
-
-<!-- usedby start -->
-## Used by  
-
- - [[Link with icon]]  
 
 <br />
+</details>
+
+<!-- usedby start -->
+
+<details>
+  <summary><strong>Used by</strong> (1)</summary><br />
+
+ - [[Link with icon]]
+
+
+<br />
+</details>
+
 <!-- usedby end -->
 
 <!-- backlinks start -->
-## References  
+
+<details>
+  <summary><strong>References</strong> (9)</summary><br />
 
 
 **[[CTA]]** (1)
@@ -59,7 +65,27 @@ Depends on [[CTA]] asdf asdf
 
 **[[Link with icon]]** (1)
 - <a href="Link-with-icon#:~:text=Content block">***Content block***</a>
-  
+
 
 <br />
+</details>
+
 <!-- backlinks end -->
+
+---
+ 
+ # test
+ 
+  asdf
+  
+ ## test
+ asdf asdf
+ 
+ ### test
+ asdf asdf asdf
+ 
+ #### test
+ asd fasd fasd fasdf 
+ 
+ ##### test
+ asdf asd fasd fasdf asd f

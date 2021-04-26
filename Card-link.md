@@ -1,32 +1,41 @@
 `UI component`
 
-<!-- toc start -->
-###### Table of contents  
-
-- [Used by](#used-by)
-- [References](#references)
-  
-
-<br />
-<!-- toc end -->
-
+General description might go here
 
 ---
 
-<!-- usedby start -->
-## Used by  
+<!-- toc start -->
 
- - [[CTA]]  
+<!-- toc end -->
+
+
+<!-- usedby start -->
+
+<details>
+  <summary><strong>Used by</strong> (1)</summary><br />
+
+ - [[CTA]]
+
 
 <br />
+</details>
+
 <!-- usedby end -->
 <!-- backlinks start -->
-## References  
+
+<details>
+  <summary><strong>References</strong> (1)</summary><br />
 
 
 **[[CTA]]** (1)
 - <a href="CTA#:~:text=Card link">***Card link***</a>
-  
+
 
 <br />
+</details>
+
 <!-- backlinks end -->
+
+---
+
+Details and content goes here

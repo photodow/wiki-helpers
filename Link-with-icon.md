@@ -2,40 +2,64 @@
 
 blah...
 
-<!-- toc start -->
-###### Table of contents  
-
-- [Used by](#used-by)
-- [References](#references)
-  
-
-<br />
-<!-- toc end -->
-
-###### Dependencies
-- [[Content block]]
-
-asdf
-
 ---
 
-<!-- usedby start -->
-## Used by  
+<!-- toc start -->
 
- - [[CTA]]  
+<details>
+  <summary><strong>Table of contents</strong></summary><br />
+
+- [Hello world](#hello-world)
+
 
 <br />
-<!-- usedby end -->
+</details>
 
+<!-- toc end -->
+
+<details>
+  <summary><strong>Dependencies</strong></summary><br />
+
+- [[Content block]]
+
+<br />
+</details>
+
+<!-- usedby start -->
+
+<details>
+  <summary><strong>Used by</strong> (2)</summary><br />
+
+ - [[Card]]
+ - [[CTA]]
+
+
+<br />
+</details>
+
+<!-- usedby end -->
 <!-- backlinks start -->
-## References  
+
+<details>
+  <summary><strong>References</strong> (7)</summary><br />
 
 
 **[[CTA]]** (3)
 - <a href="CTA#:~:text=Link with icon">***Link with icon***</a>
 - <a href="CTA#:~:text=| Set the data model and component to leverage: Link with icon">...| Set the data model and component to leverage: ***Link with icon***</a>
 - <a href="CTA#:~:text=👀 &nbsp; See Link with icon for more">👀 &nbsp; See ***Link with icon*** for more</a>
-  
+
+**[[Card]]** (1)
+- <a href="Card#:~:text=Link with icon">***Link with icon***</a>
+
 
 <br />
+</details>
+
 <!-- backlinks end -->
+
+---
+
+### Hello world
+
+asdflkjhasd flkjh a;lsdkjf ;laksjd f;lkajs dfkljahsd kjfghaksjdhfg 

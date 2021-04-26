@@ -5,35 +5,60 @@ The card is highly used core component [[CTA]].
 
 this is a test
 
-<!-- toc start -->
-###### Table of contents  
-
-- [Used by](#used-by)
-- [References](#references)
-  
-
-<br />
-<!-- toc end -->
-
-Gonna keep going
-
 ---
 
-<!-- usedby start -->
-## Used by  
+<!-- toc start -->
 
- - [[CTA]]  
+<details>
+  <summary><strong>Table of contents</strong></summary><br />
+
+- [asdf](#asdf)
+
 
 <br />
+</details>
+
+<!-- toc end -->
+
+
+<details>
+  <summary><strong>Dependencies</strong></summary><br />
+
+ - [[Link with icon]]
+
+<br />
+</details>
+
+
+<!-- usedby start -->
+
+<details>
+  <summary><strong>Used by</strong> (1)</summary><br />
+
+ - [[CTA]]
+
+
+<br />
+</details>
+
 <!-- usedby end -->
 
 <!-- backlinks start -->
-## References  
+
+<details>
+  <summary><strong>References</strong> (1)</summary><br />
 
 
 **[[CTA]]** (1)
 - <a href="CTA#:~:text=Card">***Card***</a>
-  
+
 
 <br />
+</details>
+
 <!-- backlinks end -->
+
+---
+
+### asdf
+Gonna keep going
