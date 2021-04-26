@@ -62,5 +62,6 @@
 - [Carbon](https://carbondesignsystem.com/)
 - [IBM Design Language](https://www.ibm.com/design/language/)
 - Carbon devtools [[Chrome](http://ibm.biz/carbon-devtools-chrome)] [[Firefox](http://ibm.biz/carbon-devtools-firefox)] [[Github](http://ibm.biz/carbon-devtools)]
+- [Functional spec template](_template.md)
 
 </details>
