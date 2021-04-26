@@ -21,7 +21,7 @@ this is a test
 <!-- toc end -->
 
 
-<details open="true">
+<details>
   <summary><strong>Dependencies</strong></summary><br />
 
  - [[Link with icon]]

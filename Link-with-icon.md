@@ -17,7 +17,7 @@ blah...
 
 <!-- toc end -->
 
-<details open="true">
+<details>
   <summary><strong>Dependencies</strong></summary><br />
 
 - [[Content block]]

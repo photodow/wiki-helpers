@@ -20,7 +20,7 @@ This [[CTA]] (call to action) component allows one to quickly switch between a c
 
 <!-- toc end -->
 
-<details open="true">
+<details>
   <summary><strong>Dependencies</strong></summary><br />
 
 - [[Button group]]

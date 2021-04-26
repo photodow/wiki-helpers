@@ -23,7 +23,7 @@ Depends on [[CTA]] asdf asdf
 
 <!-- toc end -->
 
-<details open="true">
+<details>
   <summary><strong>Dependencies</strong></summary><br />
 
  - [[CTA]]
