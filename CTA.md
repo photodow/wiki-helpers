@@ -84,11 +84,11 @@ The default text style is just a textual link with an icon. This type of [[CTA]]
 
 
 **[[Card]]** (1)
-- <a href="Card#:~:text=The card is highly used core component CTA .">The card is highly used core component  ***CTA*** .</a>
+- <a href="Card#:~:text=The card is highly used core component CTA.">The card is highly used core component ***CTA***.</a>
 
 **[[Content block]]** (2)
-- <a href="Content-block#:~:text=Depends on CTA asdf asdf">Depends on  ***CTA***  asdf asdf</a>
-- <a href="Content-block#:~:text=- CTA ">-  ***CTA*** </a>
+- <a href="Content-block#:~:text=Depends on CTA asdf asdf">Depends on ***CTA*** asdf asdf</a>
+- <a href="Content-block#:~:text=- CTA">- ***CTA***</a>
   
 
 <br />
