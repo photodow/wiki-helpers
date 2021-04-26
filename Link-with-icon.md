@@ -30,8 +30,8 @@ blah...
 <details>
   <summary><strong>Used by</strong> (2)</summary><br />
 
- - [[CTA]]
  - [[Card]]
+ - [[CTA]]
 
 
 <br />
