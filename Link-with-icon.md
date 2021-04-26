@@ -2,7 +2,7 @@
 
 blah...
 
----
+<hr width="50%" />
 
 <!-- toc start -->
 
@@ -58,7 +58,7 @@ blah...
 
 <!-- backlinks end -->
 
----
+<hr width="50%" />
 
 ### Hello world
 

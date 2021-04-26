@@ -5,7 +5,7 @@ The card is highly used core component [[CTA]].
 
 this is a test
 
----
+<hr width="50%" />
 
 <!-- toc start -->
 
@@ -58,7 +58,7 @@ this is a test
 
 <!-- backlinks end -->
 
----
+<hr width="50%" />
 
 ### asdf
 Gonna keep going

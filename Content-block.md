@@ -4,7 +4,7 @@ This component is a core component.
 
 Depends on [[CTA]] asdf asdf
 
----
+<hr width="50%" />
 
 <!-- toc start -->
 
@@ -72,7 +72,7 @@ Depends on [[CTA]] asdf asdf
 
 <!-- backlinks end -->
 
----
+<hr width="50%" />
  
  # test
  

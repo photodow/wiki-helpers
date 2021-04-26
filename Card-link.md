@@ -2,7 +2,7 @@
 
 General description might go here
 
----
+<hr width="50%" />
 
 <!-- toc start -->
 
@@ -36,6 +36,6 @@ General description might go here
 
 <!-- backlinks end -->
 
----
+<hr width="50%" />
 
 Details and content goes here
