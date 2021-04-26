@@ -27,9 +27,9 @@ blah...
 
 
 **[[CTA]]** (3)
-- <a href="CTA#:~:text=- Link with icon">- ***Link with icon***</a>
-- <a href="CTA#:~:text=` | Set the data model and component to leverage: Link with icon |">...` | Set the data model and component to leverage: ***Link with icon*** |</a>
-- <a href="CTA#:~:text=> 👀 &nbsp; See Link with icon for more information.">> 👀 &nbsp; See ***Link with icon*** for more information.</a>
+- <a href="CTA#:~:text=Link with icon">***Link with icon***</a>
+- <a href="CTA#:~:text=| Set the data model and component to leverage: Link with icon">...| Set the data model and component to leverage: ***Link with icon***</a>
+- <a href="CTA#:~:text=👀 &nbsp; See Link with icon for more">👀 &nbsp; See ***Link with icon*** for more</a>
   
 
 <br />

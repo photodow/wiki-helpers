@@ -32,7 +32,7 @@ Gonna keep going
 
 
 **[[CTA]]** (1)
-- <a href="CTA#:~:text=- Card">- ***Card***</a>
+- <a href="CTA#:~:text=Card">***Card***</a>
   
 
 <br />

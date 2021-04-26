@@ -25,7 +25,7 @@
 
 
 **[[CTA]]** (1)
-- <a href="CTA#:~:text=- Card link">- ***Card link***</a>
+- <a href="CTA#:~:text=Card link">***Card link***</a>
   
 
 <br />
