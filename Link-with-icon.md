@@ -30,8 +30,8 @@ blah...
 <details>
   <summary><strong>Used by</strong> (2)</summary><br />
 
- - [[Card]]
  - [[CTA]]
+ - [[Card]]
 
 
 <br />
@@ -41,7 +41,7 @@ blah...
 <!-- backlinks start -->
 
 <details>
-  <summary><strong>References</strong> (7)</summary><br />
+  <summary><strong>References</strong> (4)</summary><br />
 
 
 **[[CTA]]** (3)

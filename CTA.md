@@ -50,7 +50,7 @@ This [[CTA]] (call to action) component allows one to quickly switch between a c
 <!-- backlinks start -->
 
 <details>
-  <summary><strong>References</strong> (4)</summary><br />
+  <summary><strong>References</strong> (3)</summary><br />
 
 
 **[[Card]]** (1)

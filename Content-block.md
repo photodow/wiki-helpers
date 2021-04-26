@@ -51,7 +51,7 @@ Depends on [[CTA]] asdf asdf
 <!-- backlinks start -->
 
 <details>
-  <summary><strong>References</strong> (9)</summary><br />
+  <summary><strong>References</strong> (6)</summary><br />
 
 
 **[[CTA]]** (1)
