@@ -1,65 +1,106 @@
-`UI component`
+`Component type`
 
-blah...
+Description goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pulvinar non felis non rutrum. Vestibulum fringilla imperdiet elit non aliquam. Cras consequat in mi non facilisis. Nam pellentesque ante urna, vitae venenatis sem placerat sit amet. Praesent dignissim tristique lobortis. Donec dignissim est in odio auctor, non ultricies diam bibendum. Nam cursus venenatis rutrum.
 
-<hr width="50%" />
+---
 
 <!-- toc start -->
-
-<details open="true">
-  <summary><strong>Table of contents</strong></summary><br />
-
-- [Hello world](#hello-world)
-
-
-<br />
-</details>
-
+*{{table of contents auto populates}}*
 <!-- toc end -->
 
-<details>
+<details open="true">
   <summary><strong>Dependencies</strong></summary><br />
 
-- [[Content block]]
+- [[Component name 1]]
+- [[Component name 2]]
+- [[Component name 3]]
 
 <br />
 </details>
 
 <!-- usedby start -->
-
-<details>
-  <summary><strong>Used by</strong> (2)</summary><br />
-
- - [[CTA]]
- - [[Card]]
-
-
-<br />
-</details>
-
+*{{usedby auto populates}}*
 <!-- usedby end -->
+
 <!-- backlinks start -->
-
-<details>
-  <summary><strong>References</strong> (4)</summary><br />
-
-
-**[[CTA]]** (3)
-- <a href="CTA#:~:text=Link with icon">***Link with icon***</a>
-- <a href="CTA#:~:text=| Set the data model and component to leverage: Link with icon">...| Set the data model and component to leverage: ***Link with icon***</a>
-- <a href="CTA#:~:text=👀 &nbsp; See Link with icon for more">👀 &nbsp; See ***Link with icon*** for more</a>
-
-**[[Card]]** (1)
-- <a href="Card#:~:text=Link with icon">***Link with icon***</a>
-
-
-<br />
-</details>
-
+*{{backlinks auto populates}}*
 <!-- backlinks end -->
 
-<hr width="50%" />
+<details>
+  <summary><strong>Resources</strong></summary>
 
-### Hello world
 
-asdflkjhasd flkjh a;lsdkjf ;laksjd f;lkajs dfkljahsd kjfghaksjdhfg 
+<br />
+
+- r1: [Resource 1]()
+- r2: [Resource 2]()
+- r3: [Resource 3]()
+
+<br />
+</details>
+
+---
+
+{{Overview image | full width}}
+
+### 1. Level 1
+
+Brief description might go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pulvinar non felis non rutrum.
+
+{{Scoped image | resize}}
+
+
+#### 1.1 Level 2
+Brief description might go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pulvinar non felis non rutrum.
+
+{{Scoped image | resize}}
+
+###### Logic
+
+|        | condition  | description  |
+|:-------|:-----------|:-------------|
+| `1.1`  |            |              |
+|        |            |              |
+|        |            |              |
+
+###### States
+
+|   | condition   | value  |
+|:--|:------------|:-------|
+|   | `default`   |        |
+|   | `:hover`    |        |
+|   | `:focus`    |        |
+|   | `:active`   |        |
+|   | `:visited`  |        |
+
+###### Data
+
+|              | data  | type  | default  |
+|:-------------|:------|:------|:---------|
+| `required`   |       |       |          |
+|              |       |       |          |
+|              |       |       |          |
+
+###### Code
+
+```javascript
+function example () { ... }
+```
+
+###### Visual example
+
+{{example image | thumbnail}}  
+
+
+<br />[Back to top](#wiki-wrapper)<br /><br /><br />
+
+
+
+
+### Callout examples
+
+> 👀 &nbsp; Check something out
+
+> 🚨 &nbsp; Identify a blocker
+
+> ❓ &nbsp; Add a question / note

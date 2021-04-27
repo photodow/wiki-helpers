@@ -1,64 +1,106 @@
-`UI component`
+`Component type`
 
-The card is highly used core component [[CTA]].
+Description goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pulvinar non felis non rutrum. Vestibulum fringilla imperdiet elit non aliquam. Cras consequat in mi non facilisis. Nam pellentesque ante urna, vitae venenatis sem placerat sit amet. Praesent dignissim tristique lobortis. Donec dignissim est in odio auctor, non ultricies diam bibendum. Nam cursus venenatis rutrum.
 
-
-this is a test
-
-<hr width="50%" />
+---
 
 <!-- toc start -->
-
-<details open="true">
-  <summary><strong>Table of contents</strong></summary><br />
-
-- [asdf](#asdf)
-
-
-<br />
-</details>
-
+*{{table of contents auto populates}}*
 <!-- toc end -->
 
-
-<details>
+<details open="true">
   <summary><strong>Dependencies</strong></summary><br />
 
- - [[Link with icon]]
+- [[Component name 1]]
+- [[Component name 2]]
+- [[Component name 3]]
 
 <br />
 </details>
-
 
 <!-- usedby start -->
-
-<details>
-  <summary><strong>Used by</strong> (1)</summary><br />
-
- - [[CTA]]
-
-
-<br />
-</details>
-
+*{{usedby auto populates}}*
 <!-- usedby end -->
 
 <!-- backlinks start -->
+*{{backlinks auto populates}}*
+<!-- backlinks end -->
 
 <details>
-  <summary><strong>References</strong> (1)</summary><br />
+  <summary><strong>Resources</strong></summary>
 
 
-**[[CTA]]** (1)
-- <a href="CTA#:~:text=Card">***Card***</a>
+<br />
 
+- r1: [Resource 1]()
+- r2: [Resource 2]()
+- r3: [Resource 3]()
 
 <br />
 </details>
 
-<!-- backlinks end -->
+---
 
-<hr width="50%" />
+{{Overview image | full width}}
 
-### asdf
-Gonna keep going
+### 1. Level 1
+
+Brief description might go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pulvinar non felis non rutrum.
+
+{{Scoped image | resize}}
+
+
+#### 1.1 Level 2
+Brief description might go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pulvinar non felis non rutrum.
+
+{{Scoped image | resize}}
+
+###### Logic
+
+|        | condition  | description  |
+|:-------|:-----------|:-------------|
+| `1.1`  |            |              |
+|        |            |              |
+|        |            |              |
+
+###### States
+
+|   | condition   | value  |
+|:--|:------------|:-------|
+|   | `default`   |        |
+|   | `:hover`    |        |
+|   | `:focus`    |        |
+|   | `:active`   |        |
+|   | `:visited`  |        |
+
+###### Data
+
+|              | data  | type  | default  |
+|:-------------|:------|:------|:---------|
+| `required`   |       |       |          |
+|              |       |       |          |
+|              |       |       |          |
+
+###### Code
+
+```javascript
+function example () { ... }
+```
+
+###### Visual example
+
+{{example image | thumbnail}}  
+
+
+<br />[Back to top](#wiki-wrapper)<br /><br /><br />
+
+
+
+
+### Callout examples
+
+> 👀 &nbsp; Check something out
+
+> 🚨 &nbsp; Identify a blocker
+
+> ❓ &nbsp; Add a question / note
