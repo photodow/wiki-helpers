@@ -1,30 +1,83 @@
 <!-- types start -->
 
 <details open="true">
-  <summary><strong>UI component</strong> (4)</summary>
+  <summary><strong>Unclassified</strong> (75)</summary>
 
+- [[Accordion]]
+- [[Audio player]]
+- [[Back to top]]
+- [[Button group]]
+- [[CTA block]]
+- [[CTA section]]
 - [[CTA]]
+- [[Callout data]]
+- [[Callout media]]
+- [[Callout quote]]
+- [[Callout]]
+- [[Card group]]
+- [[Card in card]]
 - [[Card link]]
+- [[Card section carousel]]
+- [[Card section images]]
+- [[Card section simple]]
+- [[Card section]]
 - [[Card]]
-- [[Link with icon]]
-
-
-
-</details>
-
-<details open="true">
-  <summary><strong>Layout component</strong> (1)</summary>
-
+- [[Carousel]]
+- [[Content block accordion]]
+- [[Content block cards]]
+- [[Content block headlines]]
+- [[Content block horizontal]]
+- [[Content block media]]
+- [[Content block mixed groups]]
+- [[Content block segmented]]
+- [[Content block simple]]
 - [[Content block]]
-
-
-
-</details>
-
-<details open="true">
-  <summary><strong>Unclassified</strong> (1)</summary>
-
+- [[Content group banner]]
+- [[Content group cards]]
+- [[Content group pictograms]]
+- [[Content group simple]]
+- [[Content group]]
+- [[Content item horizontal]]
+- [[Content item]]
+- [[Content section]]
+- [[Cookies]]
+- [[Expressive modal]]
+- [[FPO images]]
+- [[Feature card block   large]]
+- [[Feature card block   medium]]
+- [[Feature card]]
+- [[Footer]]
+- [[Footnotes]]
 - [[Home]]
+- [[Horizontal rules]]
+- [[Image with caption]]
+- [[Image]]
+- [[Landscape Notification]]
+- [[Layout]]
+- [[Lead space]]
+- [[Leadspace   block]]
+- [[Leaving ibm]]
+- [[Lightbox media viewer]]
+- [[Link list   section]]
+- [[Link list]]
+- [[Link with icon]]
+- [[Locale Change Banner]]
+- [[Locale modal]]
+- [[Locale]]
+- [[Logo grid]]
+- [[Markdown utility]]
+- [[Masthead]]
+- [[Mega menu]]
+- [[Pictogram item]]
+- [[Quote]]
+- [[Same height utility]]
+- [[Scroll animations]]
+- [[Scroll into view]]
+- [[Table of contents]]
+- [[Tabs extended media]]
+- [[Tabs extended]]
+- [[Translation]]
+- [[Video]]
 
 
 

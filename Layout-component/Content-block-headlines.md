@@ -5,7 +5,18 @@ Description goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 ---
 
 <!-- toc start -->
-*{{table of contents auto populates}}*
+
+<details open="true">
+  <summary><strong>Table of contents</strong></summary><br />
+
+- [1. Level 1](#1-level-1)
+  - [1.1 Level 2](#11-level-2)
+- [Callout examples](#callout-examples)
+
+
+<br />
+</details>
+
 <!-- toc end -->
 
 <details open="true">
@@ -19,11 +30,11 @@ Description goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 </details>
 
 <!-- usedby start -->
-*{{usedby auto populates}}*
+
 <!-- usedby end -->
 
 <!-- backlinks start -->
-*{{backlinks auto populates}}*
+
 <!-- backlinks end -->
 
 <details>

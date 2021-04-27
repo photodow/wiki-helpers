@@ -1,11 +1,22 @@
 `Component type`
 
-Description goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pulvinar non felis non rutrum. Vestibulum fringilla imperdiet elit non aliquam. Cras consequat in mi non facilisis. Nam pellentesque ante urna, vitae venenatis sem placerat sit amet. Praesent dignissim tristique lobortis. Donec dignissim est in odio auctor, non ultricies diam bibendum. Nam cursus venenatis rutrum.
+Description goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pulvinar non felis non rutrum. Vestibulum fringilla imperdiet [[CTA]] elit non aliquam. Cras consequat in mi non facilisis. Nam pellentesque ante urna, vitae venenatis sem placerat sit amet. Praesent dignissim tristique lobortis. Donec dignissim est in odio auctor, non ultricies diam bibendum. Nam cursus venenatis rutrum.
 
 ---
 
 <!-- toc start -->
-*{{table of contents auto populates}}*
+
+<details open="true">
+  <summary><strong>Table of contents</strong></summary><br />
+
+- [1. Level 1](#1-level-1)
+  - [1.1 Level 2](#11-level-2)
+- [Callout examples](#callout-examples)
+
+
+<br />
+</details>
+
 <!-- toc end -->
 
 <details open="true">
@@ -19,11 +30,20 @@ Description goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 </details>
 
 <!-- usedby start -->
-*{{usedby auto populates}}*
+
+<details>
+  <summary><strong>Used by</strong> (1)</summary><br />
+
+ - [[CTA]]
+
+
+<br />
+</details>
+
 <!-- usedby end -->
 
 <!-- backlinks start -->
-*{{backlinks auto populates}}*
+
 <!-- backlinks end -->
 
 <details>

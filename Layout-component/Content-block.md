@@ -5,25 +5,48 @@ Description goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 ---
 
 <!-- toc start -->
-*{{table of contents auto populates}}*
+
+<details open="true">
+  <summary><strong>Table of contents</strong></summary><br />
+
+- [1. Level 1](#1-level-1)
+  - [1.1 Level 2](#11-level-2)
+- [Callout examples](#callout-examples)
+
+
+<br />
+</details>
+
 <!-- toc end -->
 
 <details open="true">
   <summary><strong>Dependencies</strong></summary><br />
 
-- [[Component name 1]]
-- [[Component name 2]]
-- [[Component name 3]]
+- [[CTA]]
 
 <br />
 </details>
 
 <!-- usedby start -->
-*{{usedby auto populates}}*
+
 <!-- usedby end -->
 
 <!-- backlinks start -->
-*{{backlinks auto populates}}*
+
+<details>
+  <summary><strong>References</strong> (4)</summary><br />
+
+
+**[[Home]]** (4)
+- <a href="Home#:~:text=sem quis magna iaculis aliquet. Donec aliquam Content block risus vitae lorem feugiat, quis tempus est">...sem quis magna iaculis aliquet. Donec aliquam ***Content block*** risus vitae lorem feugiat, quis tempus est...</a>
+- <a href="Home#:~:text=pulvinar sagittis, eros mi consequat velit, Content block aliquam pharetra ipsum risus consequat mi. Lorem">...pulvinar sagittis, eros mi consequat velit, ***Content block*** aliquam pharetra ipsum risus consequat mi. Lorem...</a>
+- <a href="Home#:~:text=neque, imperdiet ut felis eget, pellentesque Content block rhoncus leo. Aliquam lacinia tellus erat, ornare">...neque, imperdiet ut felis eget, pellentesque ***Content block*** rhoncus leo. Aliquam lacinia tellus erat, ornare...</a>
+- <a href="Home#:~:text=sem quis magna iaculis aliquet. Donec aliquam Content block risus vitae lorem feugiat, quis tempus est">...sem quis magna iaculis aliquet. Donec aliquam ***Content block*** risus vitae lorem feugiat, quis tempus est...</a>
+
+
+<br />
+</details>
+
 <!-- backlinks end -->
 
 <details>
