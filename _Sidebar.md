@@ -1,4 +1,4 @@
-<!-- types start -->
+<!-- categories start -->
 
 <details open="true">
   <summary><strong>Layout component</strong> (38)</summary>
@@ -94,15 +94,6 @@
 </details>
 
 <details open="true">
-  <summary><strong>Unclassified</strong> (1)</summary>
-
-- [[Home]]
-
-
-
-</details>
-
-<details open="true">
   <summary><strong>Utility</strong> (5)</summary>
 
 - [[FPO images]]
@@ -115,7 +106,7 @@
 
 </details>
 
-<!-- types end -->
+<!-- categories end -->
 
 <details>
   <summary><strong>Storybook</strong></summary>

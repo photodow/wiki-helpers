@@ -1,4 +1,6 @@
-`Component type`
+<!-- category start -->
+`UI component`
+<!-- category end -->
 
 Description goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pulvinar non felis non rutrum. Vestibulum fringilla imperdiet elit non aliquam. Cras consequat in mi non facilisis. Nam pellentesque ante urna, vitae venenatis sem placerat sit amet. Praesent dignissim tristique lobortis. Donec dignissim est in odio auctor, non ultricies diam bibendum. Nam cursus venenatis rutrum.
 
@@ -40,8 +42,8 @@ Description goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
   <summary><strong>Used by</strong> (3)</summary><br />
 
  - [[Content block]]
- - [[Content item]]
  - [[Content group]]
+ - [[Content item]]
 
 
 <br />
