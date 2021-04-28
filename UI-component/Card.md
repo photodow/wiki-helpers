@@ -4,7 +4,7 @@
 
 Description goes [[CTA]] here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pulvinar non felis non rutrum. Vestibulum fringilla imperdiet elit non aliquam. Cras consequat in mi non facilisis. Nam pellentesque ante urna, vitae venenatis sem placerat sit amet. Praesent dignissim tristique lobortis. Donec dignissim est in odio auctor, [[CTA]] non ultricies diam bibendum. Nam cursus venenatis rutrum.
 
----
+<hr width="40%" />
 
 <!-- toc start -->
 
@@ -61,7 +61,7 @@ Description goes [[CTA]] here. Lorem ipsum dolor sit amet, consectetur adipiscin
 <br />
 </details>
 
----
+<hr width="40%" />
 
 {{Overview image | full width}}
 
