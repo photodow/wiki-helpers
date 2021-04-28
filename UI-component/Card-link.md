@@ -47,7 +47,7 @@ Description goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 <!-- backlinks start -->
 
 <details>
-  <summary><strong>References</strong> (1)</summary><br />
+  <summary><strong>Back links</strong> (1)</summary><br />
 
 
 **[[CTA]]** (1)

@@ -41,9 +41,9 @@ Description goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 <details>
   <summary><strong>Used by</strong> (3)</summary><br />
 
+ - [[Content block]]
  - [[Content group]]
  - [[Content item]]
- - [[Content block]]
 
 
 <br />
@@ -54,7 +54,7 @@ Description goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 <!-- backlinks start -->
 
 <details>
-  <summary><strong>References</strong> (5)</summary><br />
+  <summary><strong>Back links</strong> (5)</summary><br />
 
 
 **[[Card]]** (2)

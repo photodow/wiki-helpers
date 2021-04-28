@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "wiki-helpers": "node lib/index.js"
+    "build": "node lib/index.js",
+    "reset": "node lib/index.js resetOnly=true"
   },
   "repository": {
     "type": "git",

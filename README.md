@@ -2,29 +2,47 @@
 
 This action offers a number of helpers to help automate some of the laborious tasks across many files within a wiki. For example generating table of contents or backlinking references.
 
+- [Getting started](#Getting-started)
 - [Helpers](#Helpers)
+- [How it works](#How-it-works)
 
+## Getting started
 
-#### How it works
-
-The wiki helpers is made up of two types of methods. Miners, and builders. These two different types of methods allows the script to list, read, and write the files only once while also trying to minimize the amount of loops to improve efficiency and performance.
-
-###### Miners
-Miners are functions in place to go through each file collect data, and build an organized data object of the wiki files and contents. Some examples might include tracking backlinks, or determining page category type.
-
-###### Builders
-Builders take the mined data that has been organized, formats it into markdown and updates the file before writing.
-
-#### General usage
-
+##### Add templating placeholders to `.md`
 Each of the helpers has a beginning and an end. It's identified via it's unique `ID`. Anything you put in-between the start and end will be replaced by auto generated content.
 
 ```markdown
-<!-- {{ID}} start -->
+<!-- {{ID}} start [...optionName=optionValue] -->
 {{auto generated}}
 <!-- {{ID}}} end -->
 ```
 
+###### Options
+
+| name           | type       | description |
+|:---------------|:-----------|:------------|
+| `open`         | `Boolean`  | ... |
+| `reduce`       | `Boolean`  | ... |
+| `title`        | `String`   | ... |
+| `count`        | `Number`   | ... |
+| `type`         | `String`   | TBD |
+| `template`     | `String`   | TBD |
+| `listOnly`     | `Boolean`  | TBD |
+| `headingLevel` | `String`   | TBD |
+
+##### Run script
+
+```terminal
+npm run build [...optionName=optionValue]
+```
+
+###### Options
+
+| name | type | description |
+|:--------|:-----|:------------|
+| `rootPath` | `String` | `./ (default)` sets path of markdown files. |
+| `sidebar` | `Boolean` | `true (default)` generates sidebar navigation. `false` ignores this build |
+| `resetOnly` | `Boolean` | `false (default)` runs and builds everything as expected. `true` resets all files to original state before the automated content was added. |
 
 ## Helpers
 
@@ -33,6 +51,7 @@ Each of the helpers has a beginning and an end. It's identified via it's unique 
 - [Backlinks](#Backlinks)
 - [Category tagging](#Category-tagging)
 - [Sidebar navigation by categories](#Sidebar-navigation-by-categories)
+- [Dependency count](#Dependency-count)
 
 
 ### Table of contents
@@ -405,4 +424,29 @@ After analyzing and collecting the dependencies this helper will count the depen
 > - [File b](#)
 > - [File c](#)
 
----
+</details>
+
+
+## How it works
+
+The wiki helpers is made up of two types of methods. Miners, and builders. These two different types of methods allows the script to list, read, and write the files only once while also trying to minimize the amount of loops to improve efficiency and performance.
+
+#### Miners
+Miners are functions in place to go through each file collect data, and build an organized data object of the wiki files and contents. Some examples might include tracking backlinks, or determining page category type.
+
+| miners | description |
+|:--------|:------------|
+| `reset`| Resets document by removing all auto generated content so miners can start from a clean slate. |
+| `collectDependencies` | Scans all files to find list of dependencies and organizes them by dependency of this file and used by other files |
+| `getBacklinks` | Scans all files for references of a given file |
+
+#### Builders
+Builders take the mined data that has been organized, formats it into markdown and updates the file before writing.
+
+| builder | description |
+|:--------|:------------|
+| [`usedby`](#Used-by) | Builds a used by list based on whether it's present in other files' dependency lists. |
+| [`backlinks`](#Backlinks) | Builds a list of backlinks if referenced in other files.
+| [`toc`](#Table-of-contents) | Scans the given file, and builds a table of contents for that file. |
+| [`category`](#category-tagging) | Displays category type for that file. |
+| [`dependencyCount`](#Dependency-count) | Counts the number of dependencies and displays that number. |
