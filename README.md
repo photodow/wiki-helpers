@@ -318,6 +318,7 @@ Categorizes the files by what folders they live in and generates a categorized n
 
 ```markdown
 <!-- categories start -->
+{{auto generated}}
 <!-- categories end -->
 ```
 
@@ -367,5 +368,41 @@ Curabitur a mi tempus, egestas ipsum in, eleifend ipsum.
 > Curabitur a mi tempus, egestas ipsum in, eleifend ipsum.
 
 </details>
+
+---
+
+### Dependency count
+
+After analyzing and collecting the dependencies this helper will count the dependencies and place it wherever you'd like.
+
+- Counts dependencies after collecting.
+
+#### Usage
+
+```markdown
+<!-- dependencyCount start -->
+{{auto generated}}
+<!-- dependencyCount end -->
+```
+
+<details>
+<summary><strong>Examples</strong></summary>
+
+###### Before
+
+`File-a.md`
+```markdown
+###### Dependencies (<!-- dependencyCount start -->{{auto generated}}<!-- dependencyCount end -->)
+- [[File b]]
+- [[File c]]
+```
+
+###### After
+
+
+`File-a.md`
+> ###### Dependencies (2)
+> - [File b](#)
+> - [File c](#)
 
 ---

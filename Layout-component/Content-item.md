@@ -22,20 +22,16 @@ Description goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 <!-- toc end -->
 
 <details open="true">
-  <summary><strong>Dependencies</strong></summary><br />
+  <summary><strong>Dependencies</strong> (<!-- dependencyCount start -->1<!-- dependencyCount end -->)</summary><br />
 
 - [[CTA]]
 
 <br />
 </details>
 
-<!-- usedby start -->
+<!-- usedby start --><!-- usedby end -->
 
-<!-- usedby end -->
-
-<!-- backlinks start -->
-
-<!-- backlinks end -->
+<!-- backlinks start --><!-- backlinks end -->
 
 <details>
   <summary><strong>Resources</strong></summary>

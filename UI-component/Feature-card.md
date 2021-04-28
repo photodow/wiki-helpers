@@ -22,7 +22,7 @@ Description goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 <!-- toc end -->
 
 <details open="true">
-  <summary><strong>Dependencies</strong></summary><br />
+  <summary><strong>Dependencies</strong> (<!-- dependencyCount start -->3<!-- dependencyCount end -->)</summary><br />
 
 - [[Component name 1]]
 - [[Component name 2]]
@@ -44,9 +44,7 @@ Description goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 
 <!-- usedby end -->
 
-<!-- backlinks start -->
-
-<!-- backlinks end -->
+<!-- backlinks start --><!-- backlinks end -->
 
 <details>
   <summary><strong>Resources</strong></summary>

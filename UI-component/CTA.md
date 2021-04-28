@@ -22,7 +22,7 @@ Description goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 <!-- toc end -->
 
 <details open="true">
-  <summary><strong>Dependencies</strong></summary><br />
+  <summary><strong>Dependencies</strong> (<!-- dependencyCount start -->8<!-- dependencyCount end -->)</summary><br />
 
 - [[Link with icon]]
 - [[Feature card]]
@@ -42,8 +42,8 @@ Description goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
   <summary><strong>Used by</strong> (3)</summary><br />
 
  - [[Content block]]
- - [[Content group]]
  - [[Content item]]
+ - [[Content group]]
 
 
 <br />

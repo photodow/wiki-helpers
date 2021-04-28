@@ -9,7 +9,7 @@ Description goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 <!-- toc end -->
 
 <details open="true">
-  <summary><strong>Dependencies</strong></summary><br />
+  <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
 
 - [[Component name 1]]
 - [[Component name 2]]
