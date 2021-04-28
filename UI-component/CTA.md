@@ -41,9 +41,9 @@ Description goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 <details>
   <summary><strong>Used by</strong> (3)</summary><br />
 
- - [[Content block]]
- - [[Content item]]
  - [[Content group]]
+ - [[Content item]]
+ - [[Content block]]
 
 
 <br />
