@@ -21,7 +21,7 @@ Description goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 
 <!-- toc end -->
 
-<details open="true">
+<details>
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start -->8<!-- dependencyCount end -->)</summary><br />
 
 - [[Link with icon]]

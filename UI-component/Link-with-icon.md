@@ -21,7 +21,7 @@ Description goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 
 <!-- toc end -->
 
-<details open="true">
+<details>
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start -->3<!-- dependencyCount end -->)</summary><br />
 
 - [[Component name 1]]

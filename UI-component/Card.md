@@ -21,7 +21,7 @@ Description goes [[CTA]] here. Lorem ipsum dolor sit amet, consectetur adipiscin
 
 <!-- toc end -->
 
-<details open="true">
+<details>
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start -->3<!-- dependencyCount end -->)</summary><br />
 
 - [[Component name 1]]

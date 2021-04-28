@@ -8,7 +8,7 @@ Description goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 *{{table of contents auto populates}}*
 <!-- toc end -->
 
-<details open="true">
+<details>
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
 
 - [[Component name 1]]
