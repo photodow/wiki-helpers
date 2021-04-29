@@ -1,26 +1,13 @@
-<!-- category start -->
-`UI component`
-<!-- category end -->
+<!-- category start --><!-- category end -->
 
 Description goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pulvinar non felis non rutrum. Vestibulum fringilla imperdiet elit non aliquam. Cras consequat in mi non facilisis. Nam pellentesque ante urna, vitae venenatis sem placerat sit amet. Praesent dignissim tristique lobortis. Donec dignissim est in odio auctor, non ultricies diam bibendum. Nam cursus venenatis rutrum.
 
 <hr width="40%" />
 
-<!-- toc start -->
-<details open="true">
-  <summary><strong>Table of contents</strong></summary><br />
-
-- [1. Level 1](#1-level-1)
-  - [1.1 Level 2](#11-level-2)
-- [Callout examples](#callout-examples)
-
-
-<br />
-</details>
-<!-- toc end -->
+<!-- toc start --><!-- toc end -->
 
 <details>
-  <summary><strong>Dependencies</strong> (<!-- dependencyCount start -->3<!-- dependencyCount end -->)</summary><br />
+  <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
 
 - [[Component name 1]]
 - [[Component name 2]]
@@ -29,16 +16,7 @@ Description goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 <br />
 </details>
 
-<!-- usedby start -->
-<details>
-  <summary><strong>Used by</strong> (1)</summary><br />
-
- - [[CTA]]
-
-
-<br />
-</details>
-<!-- usedby end -->
+<!-- usedby start --><!-- usedby end -->
 
 <!-- backlinks start --><!-- backlinks end -->
 

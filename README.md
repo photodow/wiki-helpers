@@ -35,14 +35,43 @@ Each of the helpers has a beginning and an end. It's identified via it's unique 
 ###### Before
 
 ```markdown
-<!-- toc start title="My Little TOC" type="titleList" -->
+<!-- toc start open="true" -->
+{{auto generated}}
+<!-- toc end -->
+
+---
+
+<!-- toc start title="Content only TOC" type="contentOnly" -->
+{{auto generated}}
+<!-- toc end -->
+
+---
+
+<!-- toc start title="Title and List Table of Contents" type="titleContent" -->
 {{auto generated}}
 <!-- toc end -->
 ```
 
 ###### After
 
-> ##### My Little TOC
+> 
+> <details>
+> <summary><strong>Table of contents</strong></summary><br />
+>
+> - [Level 1](#)
+>   - [Level 2](#)
+>
+> <br />
+> </details>
+>
+> ---
+>
+> - [Level 1](#)
+>   - [Level 2](#)
+>
+> ---
+>
+> ##### Title and List Table
 > - [Level 1](#)
 >   - [Level 2](#)
 
@@ -56,13 +85,13 @@ npm run build [...optionName=optionValue]
 
 ###### Script options
 
-| name | type | description |
-|:--------|:-----|:------------|
-| `rootPath`       | `String` | `./ (default)` sets path of markdown files. |
-| `sidebar`       | `Boolean` | `true (default)` generates sidebar navigation. `false` ignores this build |
-| `resetOnly`     | `Boolean` | `false (default)` runs and builds everything as expected. `true` resets all files to original state before the automated content was added. |
+| name            | type      | description |
+|:----------------|:----------|:------------|
+| `rootPath`      | `String`  | `./ (default)` sets path of markdown files. |
+| `resetOnly`     | `Boolean` | `false (default)` runs and builds everything as expected. `true` resets all files to original state before the automated content was added.  |
 | `templatePath`  | `String`  | Path to your custom template for everything. |
 | `depsTitleHook` | `String`  | Title of your dependencies list. Defaults to `Dependencies`. Case sensitive. |
+| `buildPath`     | `String`  | `./build (default)` Indicate a directory you would like the updated files to build into. |
 
 ## Helpers
 
@@ -70,7 +99,7 @@ npm run build [...optionName=optionValue]
 - [Used by](#Used-by)
 - [Backlinks](#Backlinks)
 - [Category tagging](#Category-tagging)
-- [Sidebar navigation by categories](#Sidebar-navigation-by-categories)
+- [Categories](#Categories)
 - [Dependency count](#Dependency-count)
 
 
@@ -343,13 +372,14 @@ Curabitur a mi tempus, egestas ipsum in, eleifend ipsum.
 
 ---
 
-### Sidebar navigation by categories
+### Categories
 
-Categorizes the files by what folders they live in and generates a categorized navigation within the `_Sidebar.md` file.
+Categorizes the files by what folders they live in and generates a categorized navigation wherever you place the template placeholder.
 
 - Categorized by folder names.
 - Case sensitive folders.
 - Replaces dashes with spaces.
+- Lists out links by category.
 
 #### Usage
 
@@ -371,7 +401,7 @@ Categorizes the files by what folders they live in and generates a categorized n
 ```
 | Folder-a
 |-- File-a.md
-|Folder-B
+| Folder-B
 |-- File-b.md
 |-- File-c.md
 ```

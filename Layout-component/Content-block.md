@@ -1,26 +1,13 @@
-<!-- category start -->
-`Layout component`
-<!-- category end -->
+<!-- category start --><!-- category end -->
 
 Description goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pulvinar non felis non rutrum. Vestibulum fringilla imperdiet elit non aliquam. Cras consequat in mi non facilisis. Nam pellentesque ante urna, vitae venenatis sem placerat sit amet. Praesent dignissim tristique lobortis. Donec dignissim est in odio auctor, non ultricies diam bibendum. Nam cursus venenatis rutrum.
 
 <hr width="40%" />
 
-<!-- toc start -->
-<details open="true">
-  <summary><strong>Table of contents</strong></summary><br />
-
-- [1. Level 1](#1-level-1)
-  - [1.1 Level 2](#11-level-2)
-- [Callout examples](#callout-examples)
-
-
-<br />
-</details>
-<!-- toc end -->
+<!-- toc start --><!-- toc end -->
 
 <details>
-  <summary><strong>Dependencies</strong> (<!-- dependencyCount start -->1<!-- dependencyCount end -->)</summary><br />
+  <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
 
 - [[CTA]]
 
@@ -29,21 +16,7 @@ Description goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 
 <!-- usedby start --><!-- usedby end -->
 
-<!-- backlinks start -->
-<details>
-  <summary><strong>Back links</strong> (4)</summary><br />
-
-
-**[[Home]]** (4)
-- <a href="Home#:~:text=sem quis magna iaculis aliquet. Donec aliquam Content block risus vitae lorem feugiat, quis tempus est">...sem quis magna iaculis aliquet. Donec aliquam ***Content block*** risus vitae lorem feugiat, quis tempus est...</a>
-- <a href="Home#:~:text=pulvinar sagittis, eros mi consequat velit, Content block aliquam pharetra ipsum risus consequat mi. Lorem">...pulvinar sagittis, eros mi consequat velit, ***Content block*** aliquam pharetra ipsum risus consequat mi. Lorem...</a>
-- <a href="Home#:~:text=neque, imperdiet ut felis eget, pellentesque Content block rhoncus leo. Aliquam lacinia tellus erat, ornare">...neque, imperdiet ut felis eget, pellentesque ***Content block*** rhoncus leo. Aliquam lacinia tellus erat, ornare...</a>
-- <a href="Home#:~:text=sem quis magna iaculis aliquet. Donec aliquam Content block risus vitae lorem feugiat, quis tempus est">...sem quis magna iaculis aliquet. Donec aliquam ***Content block*** risus vitae lorem feugiat, quis tempus est...</a>
-
-
-<br />
-</details>
-<!-- backlinks end -->
+<!-- backlinks start --><!-- backlinks end -->
 
 <details>
   <summary><strong>Resources</strong></summary>
