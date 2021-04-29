@@ -1,5 +1,4 @@
 <!-- categories start -->
-
 <details open="true">
   <summary><strong>Layout component</strong> (38)</summary>
 
@@ -44,9 +43,7 @@
 
 
 
-</details>
-
-<details open="true">
+</details><details open="true">
   <summary><strong>Service</strong> (2)</summary>
 
 - [[Locale]]
@@ -54,9 +51,7 @@
 
 
 
-</details>
-
-<details open="true">
+</details><details open="true">
   <summary><strong>UI component</strong> (29)</summary>
 
 - [[Accordion]]
@@ -91,9 +86,7 @@
 
 
 
-</details>
-
-<details open="true">
+</details><details open="true">
   <summary><strong>Utility</strong> (5)</summary>
 
 - [[FPO images]]
@@ -105,7 +98,6 @@
 
 
 </details>
-
 <!-- categories end -->
 
 <details>

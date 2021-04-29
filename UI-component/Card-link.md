@@ -7,7 +7,6 @@ Description goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 <hr width="40%" />
 
 <!-- toc start -->
-
 <details open="true">
   <summary><strong>Table of contents</strong></summary><br />
 
@@ -18,7 +17,6 @@ Description goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 
 <br />
 </details>
-
 <!-- toc end -->
 
 <details>
@@ -32,7 +30,6 @@ Description goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 </details>
 
 <!-- usedby start -->
-
 <details>
   <summary><strong>Used by</strong> (1)</summary><br />
 
@@ -41,11 +38,9 @@ Description goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 
 <br />
 </details>
-
 <!-- usedby end -->
 
 <!-- backlinks start -->
-
 <details>
   <summary><strong>Back links</strong> (1)</summary><br />
 
@@ -56,7 +51,6 @@ Description goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 
 <br />
 </details>
-
 <!-- backlinks end -->
 
 <details>

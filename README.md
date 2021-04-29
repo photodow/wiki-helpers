@@ -14,21 +14,39 @@ Each of the helpers has a beginning and an end. It's identified via it's unique 
 ```markdown
 <!-- {{ID}} start [...optionName=optionValue] -->
 {{auto generated}}
-<!-- {{ID}}} end -->
+<!-- {{ID}} end -->
 ```
 
-###### Options
+###### Templating options
 
 | name           | type       | description |
 |:---------------|:-----------|:------------|
-| `open`         | `Boolean`  | ... |
-| `reduce`       | `Boolean`  | ... |
-| `title`        | `String`   | ... |
-| `count`        | `Number`   | ... |
-| `type`         | `String`   | TBD |
-| `template`     | `String`   | TBD |
-| `listOnly`     | `Boolean`  | TBD |
-| `headingLevel` | `String`   | TBD |
+| `title`        | `String`   | Overrides the title for this template. |
+| `count`        | `Number`   | Pass in a number to indicate how many list items are in this section. |
+| `reduce`       | `Boolean`  | `true (default)` adds additional space top and bottom `false` removes that extra spacing. |
+| `templatePath` | `String`   | Path to your custom template for that specific section. |
+| `type`         | `String`   | `accordion (default)`, `contentOnly`, `titleContent` |
+| `open`         | `Boolean`  | `false (default)` accordion is closed by default and hides its contents `true` Keeps it open on load. |
+| `headingLevel` | `Number`   | `1-6` default is `5`. Determines size and hierarchy of title. |
+
+<details>
+<summary><strong>Examples</strong></summary>
+
+###### Before
+
+```markdown
+<!-- toc start title="My Little TOC" type="titleList" -->
+{{auto generated}}
+<!-- toc end -->
+```
+
+###### After
+
+> ##### My Little TOC
+> - [Level 1](#)
+>   - [Level 2](#)
+
+</details>
 
 ##### Run script
 
@@ -36,13 +54,15 @@ Each of the helpers has a beginning and an end. It's identified via it's unique 
 npm run build [...optionName=optionValue]
 ```
 
-###### Options
+###### Script options
 
 | name | type | description |
 |:--------|:-----|:------------|
-| `rootPath` | `String` | `./ (default)` sets path of markdown files. |
-| `sidebar` | `Boolean` | `true (default)` generates sidebar navigation. `false` ignores this build |
-| `resetOnly` | `Boolean` | `false (default)` runs and builds everything as expected. `true` resets all files to original state before the automated content was added. |
+| `rootPath`       | `String` | `./ (default)` sets path of markdown files. |
+| `sidebar`       | `Boolean` | `true (default)` generates sidebar navigation. `false` ignores this build |
+| `resetOnly`     | `Boolean` | `false (default)` runs and builds everything as expected. `true` resets all files to original state before the automated content was added. |
+| `templatePath`  | `String`  | Path to your custom template for everything. |
+| `depsTitleHook` | `String`  | Title of your dependencies list. Defaults to `Dependencies`. Case sensitive. |
 
 ## Helpers
 
