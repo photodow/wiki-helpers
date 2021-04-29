@@ -6,7 +6,7 @@ Description goes [[CTA]] here. Lorem ipsum dolor sit amet, consectetur adipiscin
 
 <hr width="40%" />
 
-<!-- toc start -->
+<!-- toc start open="true" -->
 <details open="true">
   <summary><strong>Table of contents</strong></summary><br />
 
