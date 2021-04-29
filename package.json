@@ -1,25 +1,28 @@
 {
-  "name": "backlinks-test.wiki",
+  "name": "backlinks-test",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "This action offers a number of helpers to help automate some of the laborious tasks across many files within a wiki. For example generating table of contents or backlinking references.",
+  "main": "lib/index.js",
   "scripts": {
     "build": "node lib/index.js",
     "overwrite": "node lib/index.js buildPath=./",
     "reset": "node lib/index.js resetOnly=true buildPath=./",
-    "new-files": "node lib/copy-new-files.js"
+    "new-files": "node lib/copy-new-files.js",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/photodow/backlinks-test.wiki.git"
+    "url": "git+https://github.com/photodow/backlinks-test.git"
   },
-  "author": "",
+  "author": "James Dow",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/photodow/backlinks-test.wiki/issues"
+    "url": "https://github.com/photodow/backlinks-test/issues"
   },
-  "homepage": "https://github.com/photodow/backlinks-test.wiki#readme",
-  "dependencies": {
-    "dotenv": "^8.2.0"
-  }
+  "homepage": "https://github.com/photodow/backlinks-test#readme",
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "husky": "^6.0.0"
+  },
+  "dependencies": {}
 }
