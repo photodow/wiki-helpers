@@ -18,4 +18,4 @@ jobs:
         with:
           path: "build"
         env:
-          GH_PERSONAL_ACCESS_TOKEN: ${{ secrets.wiki-helper }}
+          GH_PERSONAL_ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
