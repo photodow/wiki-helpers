@@ -10,7 +10,7 @@ jobs:
       - uses: actions/checkout@v2
         with:
           repository: photodow/wiki-helpers.wiki
-      - uses: photodow/wiki-helpers@v1.4
+      - uses: photodow/wiki-helpers@v1.5
         with:
           rootPath: ./
           buildPath: ./
