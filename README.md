@@ -84,7 +84,7 @@ You can find this script in the [GitHub Action Marketplace](https://github.com/m
 
 ```yml
 - name: Wiki Helpers
-  uses: photodow/wiki-helpers@v1.7
+  uses: photodow/wiki-helpers@v1.8
 ```
 
 <details>
@@ -103,7 +103,7 @@ jobs:
       - uses: actions/checkout@v2
         with:
           repository: ${{github.repository}}.wiki
-      - uses: photodow/wiki-helpers@v1.7
+      - uses: photodow/wiki-helpers@v1.8
         with:
           rootPath: ./
           buildPath: ./
@@ -131,9 +131,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: photodow/wiki-helpers@v1.7
+      - uses: photodow/wiki-helpers@v1.8
         with:
           rootPath: "./samples"
+          flattenDir: true
       - name: Upload Documentation to Wiki
         uses: SwiftDocOrg/github-wiki-publish-action@v1
         with:
@@ -159,6 +160,7 @@ npm run build [...optionName=optionValue]
 | `templatePath`  | `String`  | Path to your custom template for everything. |
 | `depsTitleHook` | `String`  | Title of your dependencies list. Defaults to `Dependencies`. Case sensitive. |
 | `buildPath`     | `String`  | `./build (default)` Indicate a directory you would like the updated files to build into. |
+| `flattenDir`     | `Boolean`  | `false (default)` By default it maintains folder structure. `true` flattens all the files into a flat structure within the `buildPath`. |
 
 ## Helpers
 

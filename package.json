@@ -1,6 +1,6 @@
 {
   "name": "backlinks-test",
-  "version": "1.0.0",
+  "version": "v1.8",
   "description": "This action offers a number of helpers to help automate some of the laborious tasks across many files within a wiki. For example generating table of contents or backlinking references.",
   "main": "./lib/index.js",
   "scripts": {

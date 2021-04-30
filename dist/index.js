@@ -8,8 +8,7 @@ const fs = __nccwpck_require__(747);
 const Path = __nccwpck_require__(622);
 let globalOptions, builders, miners;
 
-// TODO: build action and publish
-// TODO: Publish action
+// TODO: global option booleans not exactly working
 // TODO: Publish npm
 // TODO: ignore list
 // TODO: custom miners, builders ... miners=./lib/mine.js builders=./lib/build.js done=./lib/done.js
@@ -48,7 +47,8 @@ function setGlobalOptions (config = {}) {
         resetOnly: arguments.resetOnly || false,
         templatePath: arguments.templatePath || undefined,
         depsTitleHook: arguments.depsTitleHook || 'Dependencies',
-        buildPath: arguments.buildPath || './build'
+        buildPath: arguments.buildPath || './build',
+        flattenDir: arguments.flattenDir || false
     };
 }
 
@@ -414,17 +414,26 @@ function writeEachFileOnce (filesObj) {
         const updated = filesObj[key].content.updated;
         const name = filesObj[key].name;
         const path = Path.join(globalOptions.buildPath, filesObj[key].path.replace(globalOptions.rootPath.replace('./', ''), ''));
+        let writeTo = Path.join(path, filesObj[key].name);
 
         if (original !== updated || globalOptions.buildPath) {
 
             if (globalOptions.buildPath) {
-                fs.mkdirSync(path, { recursive: true });
+                fs.mkdirSync(globalOptions.buildPath, { recursive: true });
+
+                if (!globalOptions.flattenDir) {
+                    fs.mkdirSync(path, { recursive: true });
+                }
+            }
+console.log(typeof globalOptions.flattenDir, globalOptions.flattenDir);
+            if (globalOptions.flattenDir) {
+                writeTo = Path.join(globalOptions.buildPath, filesObj[key].name);
             }
 
             waitForIt.push(new Promise((resolve, reject) => {
-                fs.writeFile(Path.join(path, filesObj[key].name), updated, (err) => {
+                fs.writeFile(writeTo, updated, (err) => {
                     if (err) console.log(err);
-                    console.log(`Successfully ${!globalOptions.buildPath ? 'updated' : 'created'} ${Path.join(path, filesObj[key].name)}.`);
+                    console.log(`Successfully ${!globalOptions.buildPath ? 'updated' : 'created'} ${writeTo}.`);
                     count += 1;
                     resolve(filesObj);
                 });
@@ -6659,7 +6668,8 @@ try {
       resetOnly: core.getInput('resetOnly'),
       templatePath: core.getInput('templatePath'),
       depsTitleHook: core.getInput('depsTitleHook'),
-      buildPath: core.getInput('buildPath')
+      buildPath: core.getInput('buildPath'),
+      flattenDir: core.getInput('flattenDir')
   });
 } catch (error) {
   core.setFailed(error.message);

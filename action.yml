@@ -11,6 +11,8 @@ inputs:
     description: 'Title of your dependencies list. Defaults to Dependencies. Case sensitive.'
   buildPath:  # id of input
     description: './build (default) Indicate a directory you would like the updated files to build into.'
+  flattenDir:  # id of input
+    description: 'false (default) By default it maintains folder structure. true flattens all the files into a flat structure within the buildPath.'
 branding:
   icon: 'book-open'  
   color: 'gray-dark'
