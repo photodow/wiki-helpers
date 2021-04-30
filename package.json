@@ -4,7 +4,7 @@
   "description": "This action offers a number of helpers to help automate some of the laborious tasks across many files within a wiki. For example generating table of contents or backlinking references.",
   "main": "lib/index.js",
   "scripts": {
-    "build": "node lib/index.js",
+    "build": "node lib/index.js rootPath=./samples",
     "overwrite": "node lib/index.js buildPath=./",
     "reset": "node lib/index.js resetOnly=true buildPath=./",
     "new-files": "node lib/copy-new-files.js",
