@@ -6651,7 +6651,7 @@ var __webpack_exports__ = {};
 const core = __nccwpck_require__(186);
 const github = __nccwpck_require__(438);
 const WikiHelpers = __nccwpck_require__(822);
-console.log('asdf');
+
 try {
   WikiHelpers.build({
       rootPath: core.getInput('rootPath'),

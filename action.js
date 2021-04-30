@@ -1,7 +1,7 @@
 const core = require('@actions/core');
 const github = require('@actions/github');
 const WikiHelpers = require('./lib');
-console.log('asdf');
+
 try {
   WikiHelpers.build({
       rootPath: core.getInput('rootPath'),
