@@ -5,8 +5,8 @@
   "main": "./lib/index.js",
   "scripts": {
     "build": "node ./index.js rootPath=./samples",
-    "overwrite": "node ./index.js buildPath=./",
-    "reset": "node ./index.js resetOnly=true buildPath=./",
+    "overwrite": "node ./index.js rootPath=./samples buildPath=./samples",
+    "reset": "node ./index.js resetOnly=true rootPath=./samples buildPath=./samples",
     "new-files": "node ./copy-new-files.js",
     "prepare": "husky install"
   },

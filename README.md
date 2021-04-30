@@ -8,8 +8,8 @@ This action offers a number of helpers to help automate some of the laborious ta
 
 ## Getting started
 
-##### Add templating placeholders to `.md`
-Each of the helpers has a beginning and an end. It's identified via it's unique `ID`. Anything you put in-between the start and end will be replaced by auto generated content.
+### Template
+To start off with you need to add as many or as few templating placeholders to your markdown files. Each of the helpers has a beginning and an end. It's identified via it's unique `ID`. Anything you put in-between the start and end will be replaced by auto generated content.
 
 ```markdown
 <!-- {{ID}} start [...optionName=optionValue] -->
@@ -77,13 +77,80 @@ Each of the helpers has a beginning and an end. It's identified via it's unique 
 
 </details>
 
-##### Run script
+### GitHub Actions
+You can find this script in the [GitHub Action Marketplace](https://github.com/marketplace/actions/wiki-helpers). Below are a two ways you can use this within your action workflow.
+
+#### Usage
+
+```yml
+- name: Wiki Helpers
+  uses: photodow/wiki-helpers@v1.5
+```
+
+<details>
+<summary><strong>Edit wiki files directly</strong></summary>
+
+```yml
+name: Edit wiki files
+on:
+  gollum:
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          repository: ${{github.repository}}.wiki
+      - uses: photodow/wiki-helpers@v1.5
+        with:
+          rootPath: ./
+          buildPath: ./
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Github Actions - Wiki helpers
+```
+
+</details>
+
+<details>
+<summary><strong>Edit in repo, and copy to wiki</strong></summary>
+
+```yml
+name: Repo to wiki
+on:
+  workflow_dispatch:
+  push:
+    branches:
+    - main
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: photodow/wiki-helpers@v1.5
+        with:
+          rootPath: "./samples"
+      - name: Upload Documentation to Wiki
+        uses: SwiftDocOrg/github-wiki-publish-action@v1
+        with:
+          path: "./build"
+        env:
+          GH_PERSONAL_ACCESS_TOKEN: ${{ secrets.WIKI_HELPER }}
+```
+
+</details>
+
+### Run script
 
 ```terminal
 npm run build [...optionName=optionValue]
 ```
 
-###### Script options
+### Options
 
 | name            | type      | description |
 |:----------------|:----------|:------------|
