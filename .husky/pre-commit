@@ -3,3 +3,4 @@
 
 yarn build
 yarn ncc build action.js --license licenses.txt
+git add dist
