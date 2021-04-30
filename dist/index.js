@@ -481,7 +481,7 @@ function readFilesOnce (filesObj) {
 function findFiles (path) {
     console.log('starting at ' + path);
 
-    if (globalOptions.buildPath) {
+    if (globalOptions.buildPath && globalOptions.buildPath !== globalOptions.rootPath) {
         fs.rmdirSync(globalOptions.buildPath, { recursive: true });
     }
     
@@ -524,6 +524,7 @@ function storeFileData (files) {
         filesObj[name].dependencies = [];
         filesObj[name].content = {};
         filesObj[name].type = path.join('/').replace(/-/g, ' ').split('.')[0];
+        filesObj[name].type = filesObj[name].type.replace(globalOptions.rootPath.replace('./', ''), '').replace('/', '');
         filesObj[name].path = path.join('/');
         filesObj[name].backlinks = {};
         
@@ -6660,10 +6661,6 @@ try {
       depsTitleHook: core.getInput('depsTitleHook'),
       buildPath: core.getInput('buildPath')
   });
-
-  // Get the JSON webhook payload for the event that triggered the workflow
-  const payload = JSON.stringify(github.context.payload, undefined, 2)
-  console.log(`The event payload: ${payload}`);
 } catch (error) {
   core.setFailed(error.message);
 }
