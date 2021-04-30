@@ -11,7 +11,9 @@ inputs:
     description: 'Title of your dependencies list. Defaults to Dependencies. Case sensitive.'
   buildPath:  # id of input
     description: './build (default) Indicate a directory you would like the updated files to build into.'
-
+branding:
+  icon: 'book-open'  
+  color: 'gray-dark'
 runs:
   using: 'node12'
   main: 'index.js'
