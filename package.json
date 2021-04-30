@@ -2,11 +2,11 @@
   "name": "backlinks-test",
   "version": "1.0.0",
   "description": "This action offers a number of helpers to help automate some of the laborious tasks across many files within a wiki. For example generating table of contents or backlinking references.",
-  "main": "./build.js",
+  "main": "./lib/index.js",
   "scripts": {
-    "build": "node ./build.js rootPath=./samples",
-    "overwrite": "node ./build.js buildPath=./",
-    "reset": "node ./build.js resetOnly=true buildPath=./",
+    "build": "node ./index.js rootPath=./samples",
+    "overwrite": "node ./index.js buildPath=./",
+    "reset": "node ./index.js resetOnly=true buildPath=./",
     "new-files": "node ./copy-new-files.js",
     "prepare": "husky install"
   },
@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/photodow/backlinks-test#readme",
   "devDependencies": {
+    "@vercel/ncc": "^0.28.4",
     "dotenv": "^8.2.0",
     "husky": "^6.0.0"
   },
