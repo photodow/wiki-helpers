@@ -1,0 +1,17 @@
+name: 'Wiki Helpers'
+description: 'This action offers a number of helpers to help automate some of the laborious tasks across many files within a wiki. For example generating table of contents or backlinking references.'
+inputs:
+  rootPath:  # id of input
+    description: './ (default) sets path of markdown files.'
+  resetOnly:  # id of input
+    description: 'false (default) runs and builds everything as expected. true resets all files to original state before the automated content was added.'
+  templatePath:  # id of input
+    description: 'Path to your custom template for everything.'
+  depsTitleHook:  # id of input
+    description: 'Title of your dependencies list. Defaults to Dependencies. Case sensitive.'
+  buildPath:  # id of input
+    description: './build (default) Indicate a directory you would like the updated files to build into.'
+
+runs:
+  using: 'node12'
+  main: 'index.js'
