@@ -1,5 +1,6 @@
 name: Repo to wiki
 on:
+  workflow_dispatch:
   push:
     branches:
     - main
