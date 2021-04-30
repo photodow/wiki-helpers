@@ -84,7 +84,7 @@ You can find this script in the [GitHub Action Marketplace](https://github.com/m
 
 ```yml
 - name: Wiki Helpers
-  uses: photodow/wiki-helpers@v1.8
+  uses: photodow/wiki-helpers@1.1.0
 ```
 
 <details>
@@ -103,7 +103,7 @@ jobs:
       - uses: actions/checkout@v2
         with:
           repository: ${{github.repository}}.wiki
-      - uses: photodow/wiki-helpers@v1.8
+      - uses: photodow/wiki-helpers@1.1.0
         with:
           rootPath: ./
           buildPath: ./
@@ -131,7 +131,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: photodow/wiki-helpers@v1.8
+      - uses: photodow/wiki-helpers@1.1.0
         with:
           rootPath: "./samples"
           flattenDir: true

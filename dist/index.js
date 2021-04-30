@@ -425,7 +425,7 @@ function writeEachFileOnce (filesObj) {
                     fs.mkdirSync(path, { recursive: true });
                 }
             }
-console.log(typeof globalOptions.flattenDir, globalOptions.flattenDir);
+
             if (globalOptions.flattenDir) {
                 writeTo = Path.join(globalOptions.buildPath, filesObj[key].name);
             }
