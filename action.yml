@@ -1,5 +1,5 @@
 name: 'Wiki Helpers'
-description: 'This action offers a number of helpers to help automate some of the laborious tasks across many files within a wiki. For example generating table of contents or backlinking references.'
+description: 'This action offers a number of helpers to help automate some of the laborious tasks across many files within a wiki.'
 inputs:
   rootPath:  # id of input
     description: './ (default) sets path of markdown files.'
