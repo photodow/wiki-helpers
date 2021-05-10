@@ -7,7 +7,7 @@
     "build": "node ./index.js rootPath=./samples",
     "overwrite": "node ./index.js rootPath=./samples buildPath=./samples",
     "reset": "node ./index.js resetOnly=true rootPath=./samples buildPath=./samples",
-    "new-files": "node ./copy-new-files.js",
+    "new-files": "node ./lib/copy-new-files.js",
     "prepare": "husky install"
   },
   "repository": {

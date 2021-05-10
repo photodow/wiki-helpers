@@ -39,13 +39,13 @@ Description goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 
 ### 1. Level 1
 
-Brief description might go here. Lorem ipsum dolor sit [[CTA]] amet, consectetur adipiscing elit. Nunc pulvinar non felis non rutrum.
+Brief description might go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pulvinar non felis non rutrum.
 
 {{Scoped image | resize}}
 
 
 #### 1.1 Level 2
-Brief [[CTA]] description might go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pulvinar non felis non rutrum.
+Brief description might go here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pulvinar non felis non rutrum.
 
 {{Scoped image | resize}}
 

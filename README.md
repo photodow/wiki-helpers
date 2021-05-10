@@ -147,8 +147,14 @@ jobs:
 
 ### Run script
 
+###### First install script
 ```terminal
-npm run build [...optionName=optionValue]
+npm install wiki-helpers --save
+```
+
+###### Then run script
+```terminal
+node node_modules/wiki-helpers/index.js [...optionName=optionValue]
 ```
 
 ### Options
