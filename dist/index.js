@@ -14,8 +14,7 @@ let globalOptions, builders, miners;
 // TODO: custom miners, builders ... miners=./lib/mine.js builders=./lib/build.js done=./lib/done.js
 // TODO: Run individual actions ... action=reset,usedby,backlinks,toc
 // TODO: more meaningful commit message
-// TODO: pre commits, husky
-// TODO: Collect [[Card]] and [Card](Card)
+// TODO: Collect [[Card]] and [Card](/Card) [Card](https://Card)
 
 exports.build = build;
 
@@ -532,8 +531,7 @@ function storeFileData (files) {
         filesObj[name].usedby = [];
         filesObj[name].dependencies = [];
         filesObj[name].content = {};
-        filesObj[name].type = path.join('/').replace(/-/g, ' ').split('.')[0];
-        filesObj[name].type = filesObj[name].type.replace(globalOptions.rootPath.replace('./', ''), '').replace('/', '');
+        filesObj[name].type = path.join('/').replace(globalOptions.rootPath.replace('./', ''), '').replace(/-/g, ' ').split('.')[0].replace('/', '');
         filesObj[name].path = path.join('/');
         filesObj[name].backlinks = {};
         
