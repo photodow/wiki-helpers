@@ -1,12 +1,12 @@
 {
   "name": "wiki-helpers",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "description": "This action offers a number of helpers to help automate some of the laborious tasks across many files within a wiki. For example generating table of contents or backlinking references.",
   "main": "./lib/index.js",
   "scripts": {
-    "build": "node ./index.js rootPath=./wiki-samples buildPath=../wiki-helpers.wiki/build flattenDir=true",
-    "overwrite": "node ./index.js rootPath=./wiki-samples buildPath=../wiki-helpers.wiki",
-    "reset": "node ./index.js resetOnly=true rootPath=./wiki-samples buildPath=./wiki-samples",
+    "build": "node ./index.js rootPath=./samples buildPath=../wiki-helpers.wiki/build flattenDir=true",
+    "overwrite": "node ./index.js rootPath=./samples buildPath=../wiki-helpers.wiki/build",
+    "reset": "node ./index.js resetOnly=true rootPath=./samples buildPath=./samples",
     "new-files": "node ./lib/copy-new-files.js",
     "prepare": "husky install"
   },
