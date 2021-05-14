@@ -276,12 +276,15 @@ function usedby (fileObj, filesObj, prefix) {
 
 function toc (fileObj, filesObj, prefix) {
     const tester = startEndRegex(prefix);
-    const depth = 3;
     let str = fileObj.content.updated;
     const match = str.match(tester);
 
     if (match) {
         const lines = str.match(/.*/gm);
+        const config = parseConfig(match[2]);
+        const depthEnd = config.depthEnd || 3;
+        const depthStart = config.depthStart || 0;
+
         let list = '';
         
         if (lines.length) {
@@ -289,24 +292,26 @@ function toc (fileObj, filesObj, prefix) {
                 const cleanLine = line.trim();
                 if (cleanLine.indexOf('#') === 0) {
                    let title = cleanLine.split('# ');
-                   
-                   title[0] = title[0].substring(2);
-                   
-                   if (title[0].length < depth) {
-                       const href = title[1].trim().toLowerCase().replace(/ /g, '-').replace(/\.|\(|\)/g, '');
 
-                       title[0] = title[0].replace(/#/g, '  ');
-                       title[1] = `[${title[1]}](#${href})\n`;
-                       title = title.join('- ');
-                       
-                       list += title;
+                   if (title[0].length + 1 >= depthStart) {
+                       title[0] = title[0].substring(depthStart - 1);
+
+                       if (title[0].length < depthEnd) {
+                           const href = title[1].trim().toLowerCase().replace(/ /g, '-').replace(/\.|\(|\)/g, '');
+
+                           title[0] = title[0].replace(/#/g, '  ');
+                           title[1] = `[${title[1]}](#${href})\n`;
+                           title = title.join('- ');
+                           
+                           list += title;
+                       }
                    }
                 }
             });
         }
+
         if (list.length) {
             // list = `###### Table of contents  \n\n${list}  \n\n<br />`;
-            const config = parseConfig(match[2]);
             config.title = config.title || 'Table of contents';
             config.open = config.open || true;
 
