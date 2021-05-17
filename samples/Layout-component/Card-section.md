@@ -1,6 +1,6 @@
 `Decorator` <!-- category start --><!-- category end -->
 
-The [[Card section]] is a section level component that displays a list of [[Card]]s with or without images. The left side container includes a section heading, while the right side includes an array of [[Card]]s
+The [[ Card section ]] is a section level component that displays a list of [[Card]]s with or without images. The left side container includes a section heading, while the right side includes an array of [[ Card ]]s
 
 <hr width="40%" />
 
@@ -9,8 +9,7 @@ The [[Card section]] is a section level component that displays a list of [[Card
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
 
-- [[Content section]]
-- [[Card group]]
+- [[Card section]]
 
 <br />
 </details>

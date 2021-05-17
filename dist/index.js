@@ -145,7 +145,7 @@ function categories(fileObj, filesObj, prefix) {
                     // config.ignoreList = config.ignoreList || [];
 
                     categories[categoryKey].forEach(fileTitle => {
-                        list += `- [[${fileTitle}]]\n`;
+                        list += `- [[ ${fileTitle} ]]\n`;
                     });
 
                     if (list.length) {
@@ -173,7 +173,7 @@ function reset(fileObj, filesObj) {
     return Promise.resolve(filesObj);
 }
 
-function backlinks(fileObj, filesObj, prefix) {
+function backlinks (fileObj, filesObj, prefix) {
     const tester = startEndRegex(prefix);
     let str = fileObj.content.updated;
     const match = str.match(tester);
@@ -182,6 +182,7 @@ function backlinks(fileObj, filesObj, prefix) {
 
     if (match && fileObj.backlinks) {
         const keys = Object.keys(fileObj.backlinks).sort();
+        const fileTitleRegex = new RegExp(`\\[\\[(?: )?${fileObj.title}(?: )?\\]\\]`, 'g');
 
         keys.forEach(key => {
             if (fileObj.name !== key) {
@@ -191,7 +192,8 @@ function backlinks(fileObj, filesObj, prefix) {
                 fileObj.backlinks[key].lines = [...new Set(fileObj.backlinks[key].lines)];
 
                 fileObj.backlinks[key].lines.forEach(line => {
-                    const lines = line.trim().split(`[[${fileObj.title}]]`);
+                    const lines = line.trim().split(fileTitleRegex);
+
                     count += lines.length - 1;
                     totalCount += lines.length - 1;
 
@@ -225,7 +227,7 @@ function backlinks(fileObj, filesObj, prefix) {
 
                 });
 
-                list += `\n**[[${fileObj.backlinks[key].title}]]** (${count})\n` + backlinkList;
+                list += `\n**[[ ${fileObj.backlinks[key].title} ]]** (${count})\n` + backlinkList;
             }
         });
 
@@ -257,7 +259,7 @@ function usedby(fileObj, filesObj, prefix) {
         fileObj.usedby = [...new Set(fileObj.usedby)]; // removes duplicates
 
         fileObj.usedby.forEach(name => {
-            list += ` - [[${filesObj[name].title}]]\n`
+            list += ` - [[ ${filesObj[name].title} ]]\n`
         });
 
         if (list.length) {
@@ -370,8 +372,11 @@ function getBacklinks(fileObj, filesObj) {
     });
 
     files.forEach(file => {
-        if (fileObj.content.updated.indexOf(`[[${file.title}]]`) > -1) {
+        const fileTitleRegex = new RegExp(`\\[\\[( )?${file.title}( )?\\]\\]`, 'g');
+
+        if (fileTitleRegex.test(fileObj.content.updated)) {
             let ignoringDependencies = false;
+            
 
             lineByLine(fileObj.content.updated, (line, i) => {
 
@@ -386,7 +391,7 @@ function getBacklinks(fileObj, filesObj) {
                 }
 
                 if (!ignoringDependencies) {
-                    if (line.indexOf(`[[${file.title}]]`) > -1) {
+                    if (fileTitleRegex.test(line)) {
                         if (!filesObj[file.name].backlinks[fileObj.name]) {
                             filesObj[file.name].backlinks[fileObj.name] = {
                                 name: fileObj.name,
