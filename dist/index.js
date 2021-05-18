@@ -128,39 +128,43 @@ function categories(fileObj, filesObj, prefix) {
         const tester = startEndRegex(prefix);
         let str = fileObj.content.updated;
         const match = str.match(tester);
-        let html = '';
 
         if (match) {
-            for (let i = 0; i < categoryKeys.length; i++) {
-                categoryKey = categoryKeys[i];
+            str = replaceContent(str, prefix, function () {
+                let html = '';
 
-                if (categoryKey) {
-                    const config = parseConfig(match[2]);
-                    let list = '';
-
-                    config.title = categoryKey;
-                    config.count = categories[categoryKey].length;
-                    config.open = config.open || true;
-                    config.reduce = config.reduce || true;
-                    // config.ignoreList = config.ignoreList || [];
-
-                    categories[categoryKey].forEach(fileTitle => {
-                        list += `- [[ ${fileTitle} ]]\n`;
-                    });
-
-                    if (list.length) {
-                        html += sectionTemplate(config, list);
+                for (let i = 0; i < categoryKeys.length; i++) {
+                    categoryKey = categoryKeys[i];
+                
+                    if (categoryKey) {
+                        const config = parseConfig(arguments[2]);
+                        config.group = config.group ? config.group.split(/, ?/g) : [];
+                        
+                        if (config.group.indexOf(categoryKey) > -1) {
+                            let list = '';
+                    
+                            config.title = config.title || categoryKey;
+                            config.count = categories[categoryKey].length;
+                            config.open = config.open || true;
+                            config.reduce = config.reduce || true;
+                            // config.ignoreList = config.ignoreList || [];
+                    
+                            categories[categoryKey].forEach(fileTitle => {
+                                list += `- [[ ${fileTitle} ]]\n`;
+                            });
+                    
+                            if (list.length) {
+                                html += sectionTemplate(config, list);
+                            }
+                        }
                     }
                 }
-            }
-
-            if (html.length) {
-                str = replaceContent(str, prefix, html);
-            }
+                
+                return html;
+            });
 
             fileObj.content.updated = str;
         }
-
     }
 }
 
@@ -382,7 +386,7 @@ function getBacklinks(fileObj, filesObj) {
         // TODO: ignore files option like sidebar is doing here?
         
         if (fileObj.name.indexOf('_Sidebar') === -1) { // ignoring files
-            const fileTitleRegex = new RegExp(`\\[\\[( )?${file.title}( )?\\]\\]`, 'g');
+            const fileTitleRegex = new RegExp(`\\[\\[( )?${file.title}( )?\\]\\]`, 'gm');
 
             if (fileTitleRegex.test(fileObj.content.updated)) {
                 let ignoringDependencies = false;
@@ -611,19 +615,30 @@ function replaceContent(str, prefix, content, nextLine = true) {
     content = globalOptions.resetOnly ? '' : content;
     nextLine = globalOptions.resetOnly ? false : nextLine;
 
-    return str.replace(startEndRegex(prefix), contentContainer(prefix, content, nextLine));
+    return str.replace(startEndRegex(prefix), function (match, p1) {
+    
+        let getContent;
+
+        if (typeof content === 'function') {
+            getContent = content.apply(this, arguments);
+        } else {
+            getContent = content;
+        }
+
+        return contentContainer(prefix, getContent, nextLine).replace(/\$1/g, arguments[1]).replace(/\$4/g, arguments[4]);
+    });
 }
 
 function startEndRegex(prefix) {
-    return new RegExp(`(<!-- ${prefix} start ((\\w+="(\\w ?)*" )*)-->)(.|\n)*(<!-- ${prefix} end -->)`);
+    return new RegExp(`(<!-- ${prefix} start(( {1}\\w+="(?:[^"])*")*) ?-->)[^<]*(<!-- ${prefix} end -->)`, 'g');
 }
 
 function contentContainer(prefix, content, nextLine = true) {
     if (nextLine) {
-        return `$1\n${content}\n$6`;
+        return `$1\n${content}\n$4`;
     }
 
-    return `$1${content}$6`;
+    return `$1${content}$4`;
 }
 
 function sectionTemplate(config, content) {
@@ -664,7 +679,7 @@ function sectionTemplate(config, content) {
     return template;
 }
 
-function parseConfig(configStr) {
+function parseConfig(configStr = '') {
     const configList = configStr.trim().split('" ');
     const configuration = {};
 
