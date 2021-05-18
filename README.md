@@ -29,7 +29,8 @@ To start off with you need to add as many or as few templating placeholders to y
 | `open`         | `Boolean`  | `false (default)` accordion is closed by default and hides its contents `true` Keeps it open on load. |
 | `headingLevel` | `Number`   | `1-6` default is `5`. Determines size and hierarchy of title. |
 | `depthStart`   | `Number`   | `1-6` default is `0`. In table of contents it determines what level of hierarchy to begin building from. |
-| `depthEnd`     | `Number`   | `1-6` default is `3`. In table of contents it sets how many levels to go down based on `depthStart`. |
+| `depthEnd`     | `Number`   | `1-6` default is `3`. In table of contents it sets how many levels to go down based on `depthStart`.    |
+| `group`        | `String`   | Comma separated list of categories to list out. Default lists all. Remove dashes. |
 
 <details>
 <summary><strong>Examples</strong></summary>
