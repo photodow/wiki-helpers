@@ -24,7 +24,7 @@ jobs:
           commit_email: ${{ github.event.pusher.email }}
           commit_message: 'action: wiki sync'
       - name: test
-        run: echo ${{ github.event.pusher }}
+        run: echo ${{ github.event.commits[0].message }}
           
            
            
