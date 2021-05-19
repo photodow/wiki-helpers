@@ -21,7 +21,7 @@ jobs:
           access_token: ${{ secrets.GITHUB_TOKEN }}
           wiki_folder: "./build"
           commit_username: 'wiki-bot'
-          commit_email: 'example@users.noreply.github.com'
+          commit_email: 'wiki-bot@users.noreply.github.com'
           commit_message: 'action: wiki sync'
           
            
