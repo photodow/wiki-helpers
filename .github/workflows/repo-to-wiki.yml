@@ -15,8 +15,14 @@ jobs:
           rootPath: "./samples"
           flattenDir: true
       - name: Upload Documentation to Wiki
-        uses: SwiftDocOrg/github-wiki-publish-action@v1
+        uses: joeizzard/action-wiki-sync@master
         with:
-          path: "./build"
-        env:
-          GH_PERSONAL_ACCESS_TOKEN: ${{ secrets.WIKI_HELPER }}
+          username: wiki-bot
+          access_token: ${{ secrets.GITHUB_TOKEN }}
+          wiki_folder: "./build"
+          commit_username: 'wiki-bot'
+          commit_email: 'example@users.noreply.github.com'
+          commit_message: 'action: wiki sync'
+          
+           
+           
