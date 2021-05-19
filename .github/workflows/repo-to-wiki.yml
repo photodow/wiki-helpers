@@ -23,9 +23,10 @@ jobs:
           commit_username: 'wiki-bot'
           commit_email: 'wiki-bot@users.noreply.github.com'
           commit_message: 'action: wiki sync'
-      - name: console
-        run: echo "The name of the pusher: ${{ github.event.pusher.name }}"
-        run: echo "The email of the pusher: ${{ github.event.pusher.email }}"
+      - name: name
+        run: echo ${{ github.event.pusher.name }}
+      - name: email
+        run: echo ${{ github.event.pusher.email }}
           
            
            
