@@ -22,7 +22,7 @@ jobs:
           wiki_folder: "./build"
           commit_username: ${{ github.event.pusher.name }}
           commit_email: ${{ github.event.pusher.email }}
-          commit_message: 'action wiki sync: ${{ github.event.commits[0].message }}'
+          commit_message: '[wiki sync] ${{ github.event.commits[0].message }}'
           
            
            
