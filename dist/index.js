@@ -346,7 +346,7 @@ function toc(fileObj, filesObj, prefix) {
                         if (title[0].length < depthEnd) {
                             title[1] = title[1].replace(/\[([^\]]+)\]\([^\)]*\)/g, '$1'); // grabs text from [here](url)
                             title[1] = title[1].replace(/<[^>]+>/g, ''); // strips html tags
-                            const href = title[1].trim().toLowerCase().replace(/ /g, '-').replace(/\.|\(|\)/g, '');
+                            const href = 'user-content-' + title[1].toLowerCase().replace(/\.+/g, '').replace(/\W+/g, ' ').trim().replace(/ /g, '-');
 
                             title[0] = title[0].replace(/#/g, '  ');
                             title[1] = `[${title[1]}](#${href})\n`;
@@ -2559,7 +2559,7 @@ Object.defineProperty(exports, "__esModule", ({ value: true }));
 var request = __nccwpck_require__(234);
 var universalUserAgent = __nccwpck_require__(429);
 
-const VERSION = "4.6.1";
+const VERSION = "4.6.2";
 
 class GraphqlError extends Error {
   constructor(request, response) {
