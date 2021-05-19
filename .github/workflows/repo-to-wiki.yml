@@ -17,16 +17,12 @@ jobs:
       - name: Upload Documentation to Wiki
         uses: joeizzard/action-wiki-sync@master
         with:
-          username: wiki-bot
+          username: ${{ github.event.pusher.name }}
           access_token: ${{ secrets.GITHUB_TOKEN }}
           wiki_folder: "./build"
-          commit_username: 'wiki-bot'
-          commit_email: 'wiki-bot@users.noreply.github.com'
+          commit_username: ${{ github.event.pusher.name }}
+          commit_email: ${{ github.event.pusher.email }}
           commit_message: 'action: wiki sync'
-      - name: name
-        run: echo ${{ github.event.pusher.name }}
-      - name: email
-        run: echo ${{ github.event.pusher.email }}
           
            
            
