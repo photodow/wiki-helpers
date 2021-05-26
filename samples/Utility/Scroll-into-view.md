@@ -5,7 +5,7 @@ The scroll into view utility tracks the viewable area within the browser window 
 <hr width="40%" />
 
 <!-- toc start open="true" --><!-- toc end -->
-asdf
+
 <details open="false">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
 
