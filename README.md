@@ -1,6 +1,6 @@
 # Wiki helpers
 
-This action offers a number of helpers to help automate some of the laborious tasks across many files within a wiki. For example generating table of contents or backlinking references. test
+This action offers a number of helpers to help automate some of the laborious tasks across many files within a wiki. For example generating table of contents or backlinking references.
 
 - [Getting started](#Getting-started)
 - [Helpers](#Helpers)
