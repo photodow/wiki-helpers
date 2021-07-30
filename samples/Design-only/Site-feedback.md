@@ -2,6 +2,8 @@
 
 The [[Site feedback]] component is present on every page of IBM.com that allows users to provide feedback, and allows us to collect NPS scores across the user's journey.
 
+![image](https://user-images.githubusercontent.com/3793636/119146399-35376d00-ba10-11eb-8fcd-4b3ed24916e0.png)
+
 <hr width="40%" />
 
 <!-- toc start open="true" --><!-- toc end -->
@@ -9,7 +11,7 @@ The [[Site feedback]] component is present on every page of IBM.com that allows 
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
 
-- Carbon button <sup>[[r2](#resources)]</sup>
+- [[Carbon button]]
 
 <br />
 </details>
@@ -27,7 +29,6 @@ The [[Site feedback]] component is present on every page of IBM.com that allows 
   <summary><strong>Resources</strong></summary><br />
 
 - r1: [Box folder](https://ibm.ent.box.com/folder/137103119718)
-- r2: [Carbon button](https://www.carbondesignsystem.com/components/button/usage/)
 
 <br />
 </details>

@@ -1,6 +1,8 @@
 `Decorator` <!-- category start --><!-- category end -->
 
-The [[Feature card block large]] is a decorator component and consists of an [[image]], heading, copy, and [[CTA]]. 
+The [[Lead space search]] is in the same family of our other Lead space components. It combines the [[Lead space block]], and the [[search typeahead]] components to embed search into the content of your page.
+
+![image](https://user-images.githubusercontent.com/3793636/119161919-6b301d80-ba1f-11eb-8ca3-27a3f20542c3.png)
 
 <hr width="40%" />
 
@@ -9,7 +11,10 @@ The [[Feature card block large]] is a decorator component and consists of an [[i
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
 
-- [[CTA]]
+- [[Lead space block]]
+- [[Search typeahead]]
+- [[Tag group]]
+- [[Carbon breadcrumb]]
 
 <br />
 </details>
@@ -26,7 +31,7 @@ The [[Feature card block large]] is a decorator component and consists of an [[i
 <details open="true">
   <summary><strong>Resources</strong></summary><br />
 
-- r1: [Box folder](https://ibm.ent.box.com/folder/110327688617)
+- r1: [Box folder](https://ibm.ent.box.com/folder/137098284291)
 
 <br />
 </details>

@@ -2,6 +2,8 @@
 
 The [[Landscape notification]] is a component that pops up in certain scenarios where we the UI breaks on landscape oriented browsers.
 
+![image](https://user-images.githubusercontent.com/3793636/119145981-ca863180-ba0f-11eb-9994-27ec49d71f99.png)
+
 <hr width="40%" />
 
 <!-- toc start open="true" --><!-- toc end -->
@@ -9,7 +11,7 @@ The [[Landscape notification]] is a component that pops up in certain scenarios 
 <details open="true">
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
 
-- Carbon notification <sup>[[r2](#resources)]</sup>
+- [[Carbon notification]]
 
 <br />
 </details>
@@ -27,7 +29,6 @@ The [[Landscape notification]] is a component that pops up in certain scenarios 
   <summary><strong>Resources</strong></summary><br />
 
 - r1: [Box folder](https://ibm.ent.box.com/folder/123854300228)
-- r2: [Carbon notification](https://www.carbondesignsystem.com/components/notification/usage/)
 
 <br />
 </details>

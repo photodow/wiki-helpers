@@ -1,8 +1,6 @@
-# Welcome to the Carbon for IBM.com website wiki! asdf
+# Welcome to the Carbon for IBM.com website wiki!
 
-This is a companion space for the official Carbon for IBM.com website. 
-
-We currently have two sections here:
+This is a companion space for the official Carbon for IBM.com website.
 
 ## 📑 Design guideline drafts
 Some of the work-in-progress draft guidelines will be published here for early adopters, before officially being incorporated into the website.
@@ -15,11 +13,10 @@ The Wiki will also host guidelines around how to publish content on the Carbon f
 <!-- categories start title="Index" type="titleContent" open="false" group="Publishing guidelines" --><!-- categories end -->
 
 ## Design office hours
-
 <!-- categories start title="Index" type="titleContent" open="false" group="Design office hours" --><!-- categories end -->
 
 ## Functional specs
 <!-- categories start open="true" type="titleContent" group="Layout component, Service, UI component, Utility" --><!-- categories end -->
 
 ## Additional components
-<!-- categories start open="true" type="titleContent" group="Design only, Feature flag, Under construction" --><!-- categories end -->
+<!-- categories start open="true" type="titleContent" group="Design only, Feature flag, Under construction, Carbon component" --><!-- categories end -->

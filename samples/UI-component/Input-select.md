@@ -1,16 +1,15 @@
-`Decorator` <!-- category start --><!-- category end -->
+`Core` <!-- category start --><!-- category end -->
 
-The [[Feature card block medium]] utilizes the [[Content Group]] and includes a single [[Feature card]]. The design intent for this component is a way to guide the user to more information about the content they are looking at.
+The [[Input select]] component is a button with two states to indicate whether it has been selected or not. When grouped together with other [[Input select]] components it is likened to an HTML radio button.
+
+![image](https://user-images.githubusercontent.com/3793636/119147033-d58d9180-ba10-11eb-890d-7c5817a37652.png)
 
 <hr width="40%" />
 
 <!-- toc start open="true" --><!-- toc end -->
 
-<details open="true">
+<details>
   <summary><strong>Dependencies</strong> (<!-- dependencyCount start --><!-- dependencyCount end -->)</summary><br />
-
-- [[Content group]]
-- [[Feature card]]
 
 <br />
 </details>
@@ -27,7 +26,7 @@ The [[Feature card block medium]] utilizes the [[Content Group]] and includes a 
 <details open="true">
   <summary><strong>Resources</strong></summary><br />
 
-- r1: [Box folder](https://ibm.ent.box.com/folder/94763747291)
+- r1: [Box folder](https://ibm.ent.box.com/folder/137327521624)
 
 <br />
 </details>

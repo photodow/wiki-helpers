@@ -1,5 +1,5 @@
 
-<!-- toc start open="false" --><!-- toc end -->
+<!-- toc start --><!-- toc end -->
 
 ### Character count sizes
 
