@@ -1,6 +1,6 @@
 {
   "name": "wiki-helpers",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "This action offers a number of helpers to help automate some of the laborious tasks across many files within a wiki. For example generating table of contents or backlinking references.",
   "main": "./lib/index.js",
   "scripts": {
